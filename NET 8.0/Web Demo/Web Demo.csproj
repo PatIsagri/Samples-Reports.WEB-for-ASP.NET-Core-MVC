@@ -4,9 +4,57 @@
     <RootNamespace>Web_Demo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2025.1.1" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\images\" />
+    <Reference Include="Stimulsoft.Base">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Blockly">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Blockly.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Data">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Drawing">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Map">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Map.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Mvc.NetCore">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.Mvc.NetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Web">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.WebDesign">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Report.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Svg">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.System">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.System.Web">
+      <HintPath>..\..\..\_pdb\stimulsoft-Reports.Web-2024.4.3\.NET8.0\Stimulsoft.System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.8.0.0" />
+    <PackageReference Include="SixLabors.Fonts" Version="2.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.0.0" />
+    <PackageReference Include="System.CodeDom" Version="8.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
   </ItemGroup>
 </Project>
