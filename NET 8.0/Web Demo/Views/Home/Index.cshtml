@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -20,3 +20,14 @@
 <div id="RightPanel" class="stiRightPanel">
     <iframe src="~/View/Reports/SimpleList" id="stiMainFrame" class="stiMainFrame" onload="mainFrameLoadComplete()"></iframe>
 </div>
+<!-- BUG DEMO 1: Bug Viewer: After loading in a hidden iFrame, Parameters Panel appears on top of the Report Panel
+<div id="RightPanel" class="stiRightPanel">
+    <button onclick="(function(){
+        var x = document.getElementById('stiMainFrame');
+        x.style.display = (x.style.display === 'none') ? 'block' : 'none';
+    })();">
+        Toggle Show, Hide and Show again
+    </!button>
+    <iframe src="~/View/Reports/SimpleList" id="stiMainFrame" class="stiMainFrame" onload="mainFrameLoadComplete()" style="display:none;"></iframe>
+</div>
+-->
