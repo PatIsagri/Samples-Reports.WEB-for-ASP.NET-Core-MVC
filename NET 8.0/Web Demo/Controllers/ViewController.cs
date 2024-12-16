@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Stimulsoft.Report.Mvc;
-using System.Data;
 using Stimulsoft.Report;
+using Stimulsoft.Report.Mvc;
 
 namespace Web_Demo.Controllers
 {
@@ -25,7 +20,14 @@ namespace Web_Demo.Controllers
 
             report.Load(StiNetCoreHelper.MapPath(this, "/Reports/" + id + ".mrt"));
 
-            return StiNetCoreViewer.GetReportResult(this, report);
+            Stopwatch watch = Stopwatch.StartNew();
+
+            var actionResult = StiNetCoreViewer.GetReportResult(this, report);
+
+            watch.Stop();
+            LogStopwatch(watch, "[ViewController]", "GetReport", "GetReportResult");
+
+            return actionResult;
         }
 
         public IActionResult ViewerEvent()
@@ -37,5 +39,17 @@ namespace Web_Demo.Controllers
         {
             return RedirectToAction("Reports", "Design", new { id });
         }
+
+        /// <summary>
+        /// Performance trace.
+        /// </summary>
+        private void LogStopwatch(Stopwatch watch, params string[] sections)
+        {
+            System.Console.WriteLine(
+                "STOPWATCH {0}: {1:n2} ms",
+                string.Join(" > ", sections),
+                watch.Elapsed.TotalSeconds);
+        }
+
     }
 }
