@@ -1,9 +1,15 @@
-﻿var reportButtonsId = [];
+var reportButtonsId = [];
 
 function createReportsButtons() {
     var reportsContainer = document.getElementById("stiReportsContainer");
 
     var allReports = [
+        {
+          category: "__NEOS__",
+          reports: {
+            "XPortableReportsWithLinkExportedStandaloneWithEmbededData241210": "ReportsWithLink WithEmbededData 241210"
+          }
+        },
         {
             category: "Get Started Reports",
             reports: {

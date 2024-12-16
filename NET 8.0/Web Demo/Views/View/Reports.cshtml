@@ -1,4 +1,4 @@
-﻿@using Stimulsoft.Report.Mvc;
+@using Stimulsoft.Report.Mvc;
 @using Stimulsoft.Report.Web;
 @using Stimulsoft.System.Web.UI.WebControls;
 
@@ -18,6 +18,10 @@
     {
         BackgroundColor = System.Drawing.Color.FromArgb(0xe8, 0xe8, 0xe8),
         ScrollbarsMode = true
+    },
+    Server =
+    {
+        RequestTimeout = 300,
     },
     Toolbar =
     {

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Culture>en-US</Culture>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <xData_ReportsWithLink_DataSet_Data241210 Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>xData_ReportsWithLink_DataSet_Data241210</Alias>
+        <HeadersString />
+        <Key />
+        <Name>xData_ReportsWithLink_DataSet_Data241210</Name>
+        <PathData>resource://xData_ReportsWithLink_DataSet_Data241210</PathData>
+      </xData_ReportsWithLink_DataSet_Data241210>
+    </Databases>
+    <DataSources isList="true" count="2">
+      <ReportsCustomerView Ref="3" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView</Alias>
+        <Columns isList="true" count="10">
+          <value>balance,System.Decimal</value>
+          <value>country,System.String</value>
+          <value>csv,System.String</value>
+          <value>dateClosing,System.DateTime</value>
+          <value>dateCreation,System.DateTime</value>
+          <value>description,System.String</value>
+          <value>fakeDataVersion,System.String</value>
+          <value>id,System.Decimal</value>
+          <value>name,System.String</value>
+          <value>addresses,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>eda51a5c44e44767a899c281ce8c5561</Key>
+        <Name>ReportsCustomerView</Name>
+        <NameInSource>xData_ReportsWithLink_DataSet_Data241210.ReportsCustomerView</NameInSource>
+      </ReportsCustomerView>
+      <ReportsCustomerView_addresses Ref="4" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView_addresses</Alias>
+        <Columns isList="true" count="7">
+          <value>city,System.String</value>
+          <value>country,System.String</value>
+          <value>customerId,System.Decimal</value>
+          <value>id,System.Decimal</value>
+          <value>street,System.String</value>
+          <value>zipCode,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>1f9282460af74e9aaeef8a3142baffe6</Key>
+        <Name>ReportsCustomerView_addresses</Name>
+        <NameInSource>xData_ReportsWithLink_DataSet_Data241210.ReportsCustomerView_addresses</NameInSource>
+      </ReportsCustomerView_addresses>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=xData_ReportsWithLink_DataSet_Data241210, Alias=xData_ReportsWithLink_DataSet_Data241210, Type=Json, Content=TpF3LJ1O3PfQXcXSjual51CXDA3nuD8dSiAPtTMzQUydXvOOp0pe17BV0Bv4a9BMUv_x002B__x002F_1bWpyqmvGZSQxae0pUf2rLJ9sSkp1SSnarv0R95y0iQugk0T57vgcpQXX9AFLqnh9vlDI8RHJ314RQJOfjDhjc1zysINpsGa_x002F_5TKVyjJ89T9rYZJLk3ekyL0TPQn_x002F_UPOcMubK7R0WTVZuoxNgtc94XmP39EaS_x002B_CJrjJLwhM1Rpty2fd_x002B_lnBPOOpNK8ni9av7cC6KJ4C29lFsGkxQC2OE8YfhnrZzuXwv5CCHGTVHpSK3Gn3nitshn96OMpRSr8VPLIG1n3idV1hfw5RTILm_x002F_eaXIZRMo4dNeWn3sF3sBH_x002B_AV9gbMhKu4ZQ4s8a3jZIUrVzT1lzJM0Yb7KULOwbO4quzVdcMEpd9B9_x002F_LdAPt8dddpECds7GGg4lxqTmT3uDU4aTo9pNuVCQNj91Zds6LUrD2S_x002F_jqkEW3F9wbyI689Yh9ajsHp9AKIeWN_x002B_ey0n_x002B_Hksu5xv4EyW6b7amcdLaPa0vo66aGfmOxXogfbjS8SAm9J26J7mBIxHvs6p86nfpZcJY0Tl0DEi5M_x002B_bdaQkseTOp_x002F_U_x002F_DeD8etiLIdP93DmAKkY48Euj9J1P26ClJf6iH5hbTI2Zmiqa4ktxqcVZYlyPdvMm7Ed_x002B_RYgM9rfCckaHv2yqyB_x002B_1C9oLZcl7q3RPPQPxpUNl8Zmc_x002F_lChSfmyXHx_x002F_YDLZ2gvJ4g_x002F_ZJCUfiZuAphHtiNAtHAmVUsHBM_x002B_6LwAHGFVF_x002B_7WTtAolByJIpbB8474D0gebkiXXAvWc6H0_x002B_PW9GVywdLqF8cRGW0yEk5hL_x002B_2me_x002B_DSOuZMJ8FGy_x002B_HhRmBW492foiPfaCs3MLvdBC_x002B_xv9g4sKURUBgkecp00ZQ_x002B_nB_x002B_Xv3nLaiU0GNdWmj1b70PgIXjUSdel2P_x002B_3VGDVQYlX6GsB0WoMBUUFm1jMYx5Qs8eosPejK_x002B_lIH69Y9AfmIWpWbhDtouxvPNHAL4ORrRj1dbj6rhc5_x002B_k8U24kYSLO2drV4yv0t3Ml1a7SH_x002B_yIwXbmIJJDE_x002F_z_x002F_5U3GfApYdZxDWqbKP3paDjWePWcG_x002F_CLSpafDsHUTwMCjve8gh4wSv7USTGVR7XvIR_x002B_QyhI2StjAThP5_x002B_gTkM7MVbVoBnjODmGcUAPcqMBOUFNKUwAam_x002F_ViRIezg6ICIscDICDfiJ6iZZHteUmrbXFB6L5Xjujf0OX6LQaxt_x002B_RESuBnpcMdAvhQxIR9GiHkScgcky2rP2YhGEIJ4sJUaek33YcPfcLkfjU779fz74QJp34jx0TOlJW_x002F_6sJvTRDFrKYBPC6JxmVJ26SFP1v59RFHJNr2soHqcFCspeZjPc_x002F_WfmmJlB4lez74BDJ6HDtdqu6BWpwmqNYyT9NoGQoXhBsDdMkViwHP20_x002F_Zig1XXoGKQK7Kb0O7FJaPJHk3EvloiQyjk1amYdVSBtPNpmaFOwkw_x002B_OIR2yGSKRfyJ4uDAnd2SZX2D6igskoKDGpYMd7zS2pPEP4D0cpmnlkuD6h_x002F_O1i_x002F_1NtmiS1lFafEGBXm9SY_x002F_wjC2F_x002B_VmBlXaEbsmiwkmwJhqpLIWEInHE1lX_x002B_QiGofW2gcl1B3xHeaY8UnlGdT0L0jFfQi5h33OVYWMPiQXpM0lWyR45r33OpmoqcX5U9f0GumiSG6hsh33eLM8CK_x002B_mR_x002B_bf6psFSJCIbu6AJOH5tLIsQ_x002B__x002B_tqBISek5a6E_x002F_n80VLuUTsD_x002F_HRD_x002F_vX4oNtPfBM1VARTf_x002F_Wk_x002B_bSb82rO79SfOq3TbbbhNpnTK7Fk1rLRuVurQi_x002F_S5_x002B_1EeGkl3Adv333_x002F_Xker5Z9Ll73czHBZO5bDUCzgdoJmnW15_x002F_6uMZGh4Q6jy4iVRw2barx9LRRp0M7_x002F_3CmLuG_x002F_1Bk2GvovNXPzrx3CsUMMJFFaM9PylpMDXFmeKPfL53CTlfdE06dF2U18A6_x002F_SXE3q_x002B_TSgphUFY_x002B_9Gp2Gjv0o_x002F_yw_x002F__x002B_7DEKZ5TphGkyRF9H_x002B_fix1guQtDmo_x002B_NDzJm4vq19KUtilFzwAmBMJagPsAHvQGKFv5qw2YMPzEwJ64CYCh8cKicP28AqzaVUitg1g1wqpXfe3Q4viAmCw5NOXgQgtVEw1P7JHRC_x002B_7YMmXRJPE3BYZ5LmX3_x002F_Hq9irlHt_x002F_NFY8cWhYSqNbUil_x002B_Cb4QIAMaN1yo7nBRA_x002B_7gJVhRXza5NqmmX6gvfbr8SWnA94_x002F_EDWSwnvd_x002F_McpaWEBGdcLgsb6y_x002B_guWIYMXHcgCgPHVNSvldHxoAJUeLJL9q_x002F_Vd31OX2UuxO1QwPnYNvD1SsTnxz9Bq5mr8KMyYzSSyIGDjtWPQWly9cOvL_x002B_TDKSN2i_x002F_Vq8Lu8PV55to8rKyXZ7sIYgk8T4qbEV1qO_x002F_se9j7424gG2q5qhnTZR4ylxoZxAKy2_x002F_FJXuHrPB2kK2J2Ej6bS_x002B_5zx2EkouJoG7TMGmlHlv7rPrLlx7VY8cY2CeMWslQ_x002F_sENV4XtmTWL_x002B_a3mTpaqzdbNMcmzR9PbVYnSocPCy7DINNKrhlR_x002B_24OXVFiDLb_x002F_hQSLrA9vIC1Nt3X3N6zUoF4U4_x002F_EXZZtVhiowAjEwG8gtMN1G2j12Es1LMitiRIZ_x002B_eDzAlNjzh9sxldb5hHTWlgXXk0FV_x002B_N3SASFuYaIuVcWnW_x002F_Gk5Tl8dkZtXLXMrHugjQJ8MeILw1E3VJjZvOOAlwwPFGF721PRFFCakyjk1MSupum8ucUhUCjToQ1rrJPskxD6t3KhXlA6f3J7DEvxTFg3_x002F_bC_x002B_jn8Uc91sfC1yD_x002B_SjiVyHgN3LoLRGh2lb1JrV_x002F_m3mH3FumbVb0OC6gICLJb0uXEdV_x002B_n0qh4EqQNNIESMHWId_x002F_7DwG05m9JAVRngbKUD44smBbrhhj2Q_x002F_FQx_x002F_P2_x002F_ZQxG8TOA5TtRMiQ9JD9RXfQyXProO6J_x002B_XD55I0q2TejfJbvTLf1aRWtOM084Vc5eX_x002F_KpLaKR2745pqTm91aZbiBdgJz4_x002B_tsWO9nr5JSLk48IMdW080UTAbEqVu8E_x002B_WTNEA_x002F_HMGSSNqAWbusQxBkBhHcqnOLWrbk6UAJTOsJZKX5kRhZRclMf7mt6EXiRwpgA006MBCBWT12XCTsRGeqgymYPf0jZ3Hd6QYB8sOBx9vZ4hR_x002B_FY0YnRAMN4iVUB4gZKlItMHhynh0Tl1hD_x002F_OdGExDeE8W2xy0Beu6fTUt6eEEQyNTVjWEQRUGwliuurAZn1VotY8PCTA5y_x002F_Kcq9NJllHUFWM0L3EK_x002F__x002B_zak8KNu6GvAmJLMNIMl8CJIOBn0RuxGhn4veVDSCETbz6fPZZUjrZ0LZ4DzSk474H6PoY1jr2kQT6pMd4Ma5ypW53iOM2r_x002F_G8FmnaYHox1ov_x002F_gSvcZB2hshZkfSZKO7MjTZ2DU3irJhcAnmxDJhPUdGyxYkAEMhw_x002B_0NN1fh0HkugZWb3QqGPmhfAhdL0jCok3ANo1_x002B_V0XNZKoOycsHoYKVscpMc_x002F_fbEPXBivThT4F60BYSYIDHfh0QbVkODbbjsK57pcTDJHD7fCEPwG7v_x002F_Qxab1shoj_x002B_81ZFgb4qweD2P3ZP80_x002B_w_x002B_D_x002B_NMWTr_x002B_dp_x002F_dQ_x002B_aCn8SsgwePk2PQ8CDjgReJBSDHycaPsTIr_x002F_QjcgznqOp5v5gB_x002B_R95rlmfdSnAhmR1lVay8EEGu4v0ZZPoTRMiWF_x002F_BTgjkPIqXpoJ0rRh4VkrB1LAynXcbwXIMTjtM6ugwnZmz5MNhrEgi3iByoEWP5h1ChMEbK9d2G2o7h3P3OykRX3OE_x002B_9HsQRU6kv5bBzbjeq4uNWsolslpaHWlrswrJD1wyd_x002F__x002F_6guqS_x002F_c_x002B_IS8OoZRhrpIY9VzwwsFy_x002B_i0nKQC8WtyEEKYeoJ4XAmCxev3U5ZlNiRjMJX799G_x002B_3Kq_x002F_kNxKVO39q3paTjNq8DgRdgJfq1rp4QCcjBGcpuPORlfh1t_x002B_ra04COplHWHDdNvZebSH_x002B_NRTMqqZADDOO1Z00tqNFaLj3Y0zdsdHrLPYCw_x002F_zCMKkiyQRGf7OadmJq_x002B_4Bt1YOa0Z11RjJMVVeVDBsopHT33wQtjg5UbQYJTw5YIF3Mdrf_x002B_R1lARmnBrXH27VwIwFNZZ1htKr8_x002B_gH1DR_x002F_4IkWzkPNIC1bSoZD6Pvdmd_x002B_QMepA6wDrz_x002F_8tC9BXOJww1nIl_x002F_jfPPHRBTZczKDa9MOD1XXzVl6a7eNLyU4oUocp_x002F_rTCG9N3wKRBAh3v96X9NvCPG6k5ORKHkc8VR4mEgAu8jG4meIiYblr20X_x002F__x002B_PzGn257DaTKc60zTyMHQOTHVCgPF33oM8spWcrDUtIDeTrG2Cl7B2dbZ_x002B_DPDmufBvUiS_x002F_6YAy8eXNHM5xVhs2tE8e5zaV6ozDWsOWrdvulfU44xji0u7dF_x002F_RLRJZ1LdOyebHnqD7Z8Bsg0gBes6P04ldbiBUW7xxUbndOlrvpuUO_x002B_7lz1alDrCH07jImArgNu1VrE3kp4knZnPiYue_x002B_qv_x002B_RmDQj_x002F_025V8YxgBv_x002B_WIEURIBmOWzYYPKGgi8duNEr2Vqu8MnTmnEOUwM9wdoGT4r2qOdEshzlAu4uiAPZXVW5or2M5EVZ0J_x002F_52rWbBYFwRPY_x002F_5Y_x002F_FVMe1wF0sNcGuS6_x002B_T8nlUTRzTKXhSpTVvpHxPO1zPyKAht8JFSlgtLxRi2dN0NQiY1RT4zPAvVfPcuwd5r2_x002B_slrjxRIbYSHjHWJ8b_x002B_T5mLC1t8JH5IrOmaybN_x002B_RaZZAIasivTHY5OLJXstpM6PzQdUDobF6fDqyV7qSwqGa2Q7G8GMD3kZaBbwQpGZb6H58gPJ9diXGqhsEmX4sEn0CPBBqdc1yYuN80_x002B_wOjUrVj8i_x002B_VgZMJR7XavT9SnlWzHRFOmURkUWXxSUkyl9jYqC8MWGlAQ4JSemjFgsGl_x002B_aJplhEycH4DjXDg8rk7Wigx16NLR00SSHShKCxsttfNqIzd8viEk7VgIaJdQbjClekR4Fyh_x002B_UGTKriTOLS6jHtZlTQG782unKs_x002B_ZoUhT9Gk9OmvTuhJSl8IeZY5Zu6pft_x002B__x002F_HfYJlVel0xwbsHqAIdzEs_x002B_X9FpfSVJ_x002F_NltWgp5opz_x002B_BAYFxjVC9qFITdzAf36tSZi7FUiixPcdqBRTocSf7EnpyA8hCzBnDX9RFS5kvijSysjY_x002F_hxqUjeRqcsiA2MNiIrhCMKJC86cE_x002F_y8XlHlcWdfYXF81GqmpD_x002F_fW9CwRugnxyZbmq5nkNX4gy2aF9mwbIfe28QMT0blq2DKgkhoGyzG7STB9P7cLNuG0QXC85F8KVcfw5IN08AlapBbMbHC_x002B_mJqO_x002F_RcYVAN1V9JXkBT89d2Q9lTpT7K9DVo6izRoyFhc_x002F_ufT8M9_x002F_4s2AcM5RS0VJ3z6S14vtl46bqaVsIlW9ZzZsUx0uhEJtzTkF3tpoNMffrCBTHEGYxhHSDFrotfZWdnri9L4ITiitXkWGSh82G0zujVBDdAFOldVcINpKoIkkk0VeWNTb8Rn_x002F_t9qHcETVyOCaRiCFT_x002B_ADBbybjmSAtcfkO7GbaIkQGyBENhxo86r0UssjyaO5FymBZd5_x002B_VPqtNjezpdxWNWAZcYCpFVhSDszpuinn1daoAv8dLPqFB5LWcuIyR63_x002F_pJDzxucxymxMIoK8JgzpDxTI1kB2hLnx9iDuK1eXBWJXgge_x002B__x002B__x002F_utuUAVBpaHBvdvhX0TW_x002F_boKrde7Qzjz3epphTnOTeV91vvKad_x002F_SYWZ1mYUrkfWMFWzssV5awSc5L2xH_x002F_aboLzl3UUC3KuNuvgxoqOS99m3WuqjkKAPdDLvaQuJnN7zbkEo0u1vdXsbQnspVilqsUv9gkcsCV_x002F_RiCsNiSIUN7qgZa4W1DvBOdN59Q7395bXptmEqNZ3g6bLNH4Jf8QBbaSsl2mPAVai0LvMVSLECYS_x002B_j10deOAlsrBk83XgPXfxfUvuGo6e2W9_x002B_5GgRaVRXZ5GtxliQq_x002B_Ulmcb4SR02Xcs5An0hlKTqO0Utn8sW0sA52svA5rWXnUlY0abH8EKC6RX6tJkXoNzleXVX0PCVw4zPuNVeQF3y3636aFK0O3_x002B_ywzpOmb2vnFbyzcQ2DrfNHhBfBe5vj8clAkMrHct_x002F_yNePlIiPC1WIzuXD1ZrvZmZLndTVe2zUXd_x002F_CK5acJqUKvltb815T9wIWc5ORoyCsz10Ua_x002B__x002B_O1yNlM_x002B_n_x002F_EjdBl8_x002F_Yw_x002F_s1OWph58_x002B_9e9xDAiMoeAIMmJbtT7VAwIQSAUr0HuflQNQlM0U_x002B_V_x002B_lHZz7iX0vPuNk_x002B_PZUwHZxOnJcleT6gmuWylySKPQFcc7CR7bU5ytUG7MhyWiTUmBRWvuvtKjmscaBq_x002F_idn_x002B_wO898B0WDpkVgJPv_x002B_lxN4d96uixjPYQdH841ln_x002B_MuzA31dsujZirh_x002B_fcUPmhvIsIianccEtnqln56vODyM7TTuo9m9npvxfBL6w8Me0pjiFYlIFOn1GVyerYyC1uE3va8_x002F_diXEtfhvmQ59lFWNzuFntVOFQ0Tdqtg8n6g_x002B_A2qI7RcjY5ocCvyOPWNvdzCVpOFOKxXtOVTKMdphSw5B0Z4tzRsOB1w91bR3l6ajT_x002F_Gz8LCpjZTxVjLGnO90GtOMKJdVC0Uy8_x002F_sVS8yuP3LhN7Vt20Z8WL_x002B_PWaanwMyipHtmKwcDh_x002B_tk_x002F_HceTlSTYDff342rkO4Lvx_x002B_Ia3jB44XXT9PPUo1riTuVrroYNWWeQWwsG05oHX1VFiaoibk9otVYMXRDuzoYGJyn8WqttjT7qiSmtnQmZaev74gfjE_x002B_5U3NvO08iHSGfYjHrOteM70YTUwCc2A2VZd9vCtU6RYj_x002B_GXP4WfZjOb5dh5DsWYFfxtbTseEOMQBSpSktvgjSIEPcW_x002B_bEqn29DYBlGTji_x002F_ExBU7lFQa2_x002F_eVW7K6TB4vJq4DJ_x002B_SlM8yDP73TxiF0UikLXdXMZCMUdlIYfsjZYqeMwvHAsWSpTS5Rg2Gq2dQzGUcKtUxSAUUDmgJOzpE6zZ_x002F_eoU_x002B_Ru8hh4JIg3dajp9NKHOy_x002F_bekV96zftH6Y3QLYzvEN7BMG9bDJuqN_x002F_7bhPam71GLEh3nfaGt1acDCF1QLknozmbeBIh3QUGxKytJKPhAyrLsA7gpCO5YEJWagY_x002F_nAyOKrCsn2enjBQRHQtZacw9betkjNU_x002B_Y4G1UuLnmvNI8wFh51_x002F_fp4EIT7J8l0YFCr3QySHJZgvjGVoIq7ZxvS6pfizC7_x002B_d5xVH1_x002B_oCoe4fMcbouoUgSWQyZ9c0R8nWthYIs6p5B7evqYcCq8fZ81CaXgMLVL67rOo7h3XCCmwr5UKxrf_x002B_Qi5UXSg7Fm3_x002B_JXjrQsJ8fBfecOGvE5kYbD7yQ253i4yKppH7_x002B_IXmQLr_x002F_0HLYRWnWpMTIW9BqKIRelrBEpv2l7cSYwpXpC0nXYLH_x002B_rVqDkWT3pl5JuhR3ceTNtNVua7R9MYaqRSORoNdgHuzF2qOTY3YdnewySE2xXHICAHPIZ9dc2R8f_x002F_S9w_x002F_EjZjlZIEaKKng_x002B_1EBiSgankISabjpKgaRYPNCkUJp_x002B_FEsF_x002F_eAf7kJfqZcp46hwtILxP65uFkSB9PauZFQgf9BanpMSjwJgTVV7Iv13lRI79Wwwnn6zvXdkNPC3wzxbuFX4fg7hEQOlYH59kHobSvt9YkgmE59Uo7pf1MS22bNCRpe4xvUZpaF4BTeIxO1ysW4PSq2f_x002F_KO6PdpJRhiqlSUdWn_x002F_ue7isxKerRSpU9HIvjYMRxjDjsl9a7Mr80IHZJzXWdtc3cYqLSmFshuTBfey_x002F_te7djs5u4BveKlytX32cZ3sKPG0Es_x002B_SA0zrfvXWKaYRZyhkRqfzTB5ia1zKVM3HnF8JtACZ7psjsdadQPy5148PBERDN_x002F_Ae1Ls363U0hMBQiPvrHd2Rs48Q3GHERjR6E2HBoCUoEbxsykIy1GFdFmARbyFtRzfMevQmGQM1Uk0tZiGIYkCRhVAVQrWZbgqGis5z_x002F_1jG7V73s1hdqdIVI9cl_x002B_GEmyqyCaVgUrPNH5VK34_x002B_EhR5dAtI7iTjG8Hm8pH2UFN70clRcmqGLFwyVsQzFsB949GF05e1ogsYjXHCRNJBjj2wZC_x002B_ZA46JwONR_x002F_EYdX6AeGqrOikkVOxjebfQulWb9OrVSL9wzG3Jc2Az5fha5EoiQzTn65t8Z6eySaSRgr7oTnWN5EwWixoTnI9CxpfLVszCNzZC0XwX4o78xHpYdE4XT2upwCJKFHN0EKPEqs_x002F_rxkcqQd3_x002B_kgO2rVAIs45pZt1rAuH59auAja6pHbPE0CV_x002B_tQGDQJjCvsQXgHF7KA6_x002B_FgJzAujdd4OG6ffWWPzQ_x002F_vOpSvOD30KEu63MyxeTMYGVwD6ktFQ8l_x002B_jBEMiUpv8GjiFG205pxG00jVQx7_x002B_yeAnbfJzttDtyA8eY6tuKkuuYK_x002F_mAMR_x002B_Bci0WilU6xAvn_x002B_n8cf8XMwu0p1JPq7EmElepM_x002F_Wy3JGApA0VNcsevFCV0fVfxVLt0PdJ37zpIdmkDPw5Och7ReUNzFEsG_x002F_KNy1ZP5KB38TLS_x002F_f8_x002F_CBTqg1mAR62P_x002B_cXtZ9XT5R6mqL0nkvfoiXsqNsWQkMwKTpcg9k3hWScTl30lQC4MycaeqQRUk0o1hvbZjUAMTMc1royfSrkT5vbSAVa6DKg1f7dcc71m0KJ8HxxdPxZh6ybyI9A9Z1XklW2fYlFMByxn5ZnNTqRVauPP1RaRxSWk_x002F_7cJeEOdvrKzLZowI9TMKnkDe1Ew8xsvlRnEy5doorzwH281_x002F_6MjD2Jpqu8sjGu0APVXl4hjcAz2f2Cnnp7_x002B__x002B_tTf94DTkh6fJGkx2EgoUZtBO5y6j1DFYYHgRCH4S73CfFVZi9RU7NCGRltcbzS0VLEWrLpW5h_x002F_GIThp5_x002B_u27RUg1oFN0w9KAtcSe5Gd_x002F_DtazgMpnHJZfHmKRwX_x002B_Cqz9B86PHC_x002B_SVLRiFc8v15_x002B_ui18lJW0OPFKW0lR4jRWlbblgCpVf0SwvWi7YwuRZtQav9p0wZfUADQyAkFCEnk0jpFeZ0VfMfOqDK_x002F_3q1DcKAwKyuJyqyim64Rz2Ooxc3fOgaMUhPDSGBvHIgH6TudI4wOniYK2FipCkId6iKUJePBXKiEUaDuiAn_x002F_4jxvQ5425Srg3cy2Ye_x002B__x002F_cIG4IjWXJmyQQEmdlNIA7BNfOQzAjUFUt6qqV5JLZsdkgmo_x002B_mYTmbGLWNzaw5a9Ax0Aluxo7aSGY3RUEm2ubrnwGumjeV1ceedXwC9D9HVLtPFivTasMWyhCtPAahjDA40fVYgcnLfkJi5jW3RhxxzvQCvn_x002B_jWFc30CVAnVeH2cUL6oRGoAGKzR4H7ft4zCcHm0Evbaxef9OESVlFke_x002F_3m22ctExOaV8rcEzdeu4lwDVSKGi3dgiAQBvD9BxAiunvf_x002F_ZQXeu2eaEO0Whuwp_x002B_9x_x002F_fM_x002B_2X4bUX3FznxY8HUbokIBX5Gx897BOrpuiGWfft4VLgy7vFTG59WyCYF8UyZ0KqjHgn4IaXTMk6RRicz9HJj1cQd92xqr4sySud4gMyQZ7YYojmnKhjqlCt_x002B_RtetQybTIfeQL2Xd1ZgPrEogPiTIHm4y313ukE2ZsJWB2_x002B_U93_x002B_Wj8d0DIku0TEWeHlWztkViKq3iZA5U6ZD48xzB1_x002F_JqIK2n1Ye8_x002F_ZmWYsK6wbQsEzkAyGC7FSyeo5Kf2UhJzWhLOSCknonseY5w9_x002F_5AXaUcg7YuJbokbC_x002B_BTZuWF1SLraDPfOFsS_x002F_2PkTNY41LOvTsTZgUbsjKvXjP7AVd5tDVlmUCE2sk2BpkPGx2MRCKMaPTASUiqGaONyr8mpent3sQvg1qyIjJ6Nvcrr7PRBWK_x002B_2Dj1e1UsXOdNLDQGZFJuKaYdg7pI_x002B_APDwXPkCH2OagSE63nk0fOVo45W0mmIHegEJccwDAAkIqWmZ03w_x002B_WpOlq0HwbHnTawQyqf7ZnLT8Pj4v6qiYux_x002F_ff7tO1KrwFxOXtFdHPZ1e_x002B_0NMRuDVpg65jew4isPTunY_x002F_YQKr0H_x002F_x5QYFnymNc3S7gVVHD0ItBdA6z04SETPCy13Fxr816ZaJzLW6PQeGZCRaQMnOCfu76kgydkw5D3_x002B_93CvH5kaJl0k9RsSxOzZNaKRk_x002B_GQA0TnRWUo89NLsUKCt4hDRhhMv_x002B_r2Ql7fn9wvXRsmRofoOym_x002B_LlovjcLb_x002B_UXHBuKzHm3VTIH4ZVEhMkB2_x002F__x002F_Vy_x002B_QJUf_x002B_u_x002F_W4U6K5L2R3BkcKoXk5XcJMxnH_x002F_G5AIyshF1AOrQOGTh1cZImF5hxFzoKL5ovrdOjPZ6klph77AYzzfO_x002B_gsLJqP_x002F_v1Y8pOBKFqpo_x002B_JFApTkWv2_x002F_hypYuZncqhs3CFNthWx9uaisQpm9Sk1mF4kV9OII5JthjSvhpLab2QMZwgJyj9xsHZ5tRqUrPq_x002F_nMUzJh3n9pqAch8zz08abmPzOYnMP_x002F_lXyIz_x002F_qcYHLbO39FlyD5_x002F_0zzTZnOBbIGdc4fL_x002B_EmkefysFTE3_x002B_OMMhktkYJoTNCLyDt6Q4MPkRbTk5vFcIMkh5strqV50vNJTmTBLbb4znaSqaUdKuAJUFHFB5vdbK_x002B_qe_x002B_fDLsKU9Ag5GIfFcLTagCywme421Mx_x002F_pXPbdV3aR24XfjzKHzdAn3o4pzTH8_x002B_QQr_x002B_pfQpz91kynNicU1byUUMi93gpL2WGrh88_x002F_NwSTLd2izninX2ljDkJfViamr90nosW04e_x002F_d3C7Sjr0ZYVoN9_x002F_Th5vCclCmw9_x002B_ENKbZrW8miqwWI3k9C9wdi8bQubLp3gjgeS9JIrRPzIow0qFIJnFuN8FPkuWesMXaqcuCY0P2ut0_x002F_EatQPyRz21xZGlO71Rk1hNTcY2RA_x002F_zfW2_x002B_o21AzLMLmXwhd1JnZIC2ySBAytdHO6u0ZID1HLhsjLFqrP_x002B_KJMtfDDvnz6ya7BoQPzLVRe250sMu2wszrxMoHzQ9wCvBJpGzmIHpdDI3_x002F_GglsO6bjueCHMCRPXANbvJNv9XLaJGavfoaQkNrnzfTAQ8IVwaPLcF2ytCDJrw1J4VL73jniuBYSFApWT9kQrH81Oej7XiM4L4Y7rQOwaNCa1eQhg59zOo3Ty2f7ORMbWJHS2fmBrjoIzPiBbEf6H_x002B_ktF7_x002B_54jW5x91xzYfZ_x002B_nZG5Toh9pC_x002F_J3gAVoxxnJBZV8c_x002B_3RC3nCkIJG5ZpLLsTbzF_x002B_MFBuXzrBg3wtyDXednUMK1RtloS7OeFPb_x002F_2LuoEOuAPgmq_x002B_J7VdYsyQpc01cKj4j6KaOEmkImbNQ_x002F_dKk4RVODgy5hvmWlAFJ6Y04PjfQckUnk8QjGhtR7sNE5X9Kyx0eT0DbDRjqOMYDKoIH6sWUYkPxDvKBchh66VSgveVa_x002F_YGiTD5xYfHhx11CuNkLf09rbNUcR_x002F_5vYn_x002B_wx48ZMF_x002B_DN_x002B_iB9Y1wlb35iyHgup1yLchbXbIvyMuyjTU_x002F_9xMJdqJx54KFSmuvFCSleaO6GIBXcao_x002F_8HreqNmeDZM8hGO22sTTtqlquvzw_x002F_cGns7CGmEYXv75JTnApwcbE3G_x002B_qSdg_x002B_I6sqF_x002F_IZySJCOuySjTofE2L_x002F_RXFxGzHzQx5IoDITsxw9h0VBrla20q8_x002B_N8iQGtH_x002F_2DyEIuu7bekVsAhlz0TJNZqqRT_x002F_1LfmdJFbEZdwmIwj6AAVx4YZ3lGxWoeyT9lzdQlZo2E3A52Y8VzYDzsxu6vSeXmeVXaAcUA9_x002F_keTiNQwfz1l1ewRMiyUJcy3I8HsQzi9MqEovm3gbjzSPf7DJoQAHDj11_x002F_44eOLU3M8MwlGnvItbjkbYeO2KWSXJk8bsq9Clh_x002F_lAEHMQxrtZscQRHKx0kvcTUpObgQ5yRWjpGnPyTet58oLtYTE1fPH_x002B_g0viruad4xsrU6_x002F_3tvHsTOGVpNJpZmlJP9RQkrd1kl_x002F_S1_x002F_1PwRCXxZZTEhujbM4vvyHkv6_x002F_zasQHp7PfvM9Z0w_x002B_8qaApizTsE864DabXu6lpNwdErVW4K83YHi6u3Gdvhb_x002B_76N0dVWDRuH54mA5kNOGjTaNF6aOkSDsU_x002B_91v6OM39PFDPKSrgg1IUVrBUpUlHqbnL_x002B_TrkZ2E7UTiTWk04m68BJnER6bx9F6VkKsBnLETvY1wJ4SF1lm4_x002F_XIHNSino9f6WnDELSOXQDKoLUuUh8XyicQBhQ0lr99_x002F_EFfd30tGqeBlC6Xx0VusJUyI2Rqd0nAuXdaGTn9RxY_x002B_0ui1HN4IQuiNCx5_x002F_EhNcPNtq2RAS_x002B_Hn_x002B_EdVyj3eMk7LpwN_x002F_y6j1cwwyY8PICaivO2YwqwuBzqPWk3Nxtsa3FgdeFZ8P3gCk93jOrrUA5wlyzPNnlLZulVKXsZebeeUkUZFpTrsya9v9x_x002B_5rx0ZzoeTrPOuQIHNx0YePqr2NljWlORak73I9Ayoh2pd0nnORB4olnN0IBnC5EI0CqhBx42Bco_x002B_TfD8C6Tt_x002F_egmDVGNJJlkC4dDqR8w_x002B_u6RSJQEPCuBtIInbfK5H36GixzNkJmIA7_x002F_OP2_x002B_IUjwAgwdOj26zaWHHN9xardfEFjswzKnIzcpzYHqpFZZuHa7mGtNd7gPjkDvMhEUO157jXWRE7CWeeleXuPahLbMcsU6KO3T54QX5ZGWRiLqRqhnTyhAcbcTjGxzES6S5sAg_x002F_Y23yMQM_x002B_39tRLosFXdnPJM4Cx5QEXSTn8ku3YAlvZlIf8ZI_x002F_vSPK0kCqFMDtTBwmtLWZt6er0IzYII3Mjwn1b1iLEkOn6vbikDgzpAb_x002F_RhRnVdMOMRDBLrxS6GynZcL_x002F_vOJda_x002F_ptMuAUNMMiEAZ80OQPJYc7bx_x002F_qvhb15Y21SJ5VlNAGcjpkBEvMeRwIixtBUh9IgJJkNWjJUMPl3Kq5dJxJDqUiR6oecBxC6acYyVJK2m2q6kHucqL6yDk7deXw7BqtR9tgmoy_x002B_iLCPvrtufLihG5bMAT8V3xl9joZYM1flsfRd5wGsg7VIXNM8njK8t_x002F_rorWtJ_x002F_8vGrufrmWikuTYxNrQfpMTUWttDZScw3q_x002B_0MnJ5hc8kGrwsZjLUWjnhTSFMG9G2rLBwVH97Y9goIjmF2nqwsbkJCL8qgzn8Gp6Bfx7Gxh1nDluOdm5J6f6a56zp2Uh2lU6yN3aXxMUlQB0XtBWiD51N_x002F__x002F_OzbanAThm2JPLVIESLpXScuqhKm0LCzG0xt_x002B_ipr0Wgu8VrdqePOdgHOuRv9CEYjzTL440DG31FqKNzrMGNEcX1DvQTjBulnuHe9PMUWn6GMXf2cgJ_x002F_Zw8rvKDG41xgXuWsP_x002B_6W_x002F_vaYkBc7ajP6V91IA_x002B_xKBYrDrutq6YMfez89TyFqIFEW8Bm8FF42NT4EUciMCwP7q3TA9SJQUJ3CUZgnKVELYcAgaCp1mUpPY4paqFD4Gzye81hJFdYX_x002B_6_x002B_7eubZY_x002F_SbdfBVD31EXFX4R2euFnGHLdtBlc4adsa_x002B_J1ifKBu3KZEhNCCA1TBmX1PhXN111ebcgPTfn1CSQfKMRV1BRlGV8STgzCfcl_x002F_nU_x002F_KfK2aVTK61RWZ1o8vYEE9_x002B_7xttGDh95O7fa6N47k3pW_x002B_ypxnWzyX2LAhdluMDyDpDRLHQx2Aa8ZmrfpmM2XZbmNgsEoPzJnBx1X6sr3VXyr8qSl4gTGLRnSi61VNDKasZAgLvCLLKv3_x002F_wiXH6SDdXscpkb0m3F0aBFOtqt7jCgEUOslKrsD8ESGAvrb1q_x002F_ypYs_x002B_d1X_x002F_6cNWQ7GFur7ggm7euzERuhHC7E3VICnfgsi2vbdZTl4fTiudiOSUOeKjqTLyYQnui_x002B_w9Bl_x002F_hODtCDlnpiXtfVaUYWB31MlyoRLGM2ArS_x002B_UMAdQpO1rnYeScFTBtBtkY01pKJsBATtmaFoQtLFbxgxcIj1_x002B_JYq2gfpB5nshnrP1KH1rkhEpS6Cmf3CQjBWmxHXefdbS9Y61K_x002F_rnbwC06rxUlM6pOgtwtHdKJYxj_x002B_F_x002B_O9YD7G9Wl_x002F_4yjdQe7tMnp_x002B_VkCiOiDF_x002B_pLfaM57PLgkFEVUKe8Y4E_x002B_lBb3FBCPAFOLraIEHpc_x002B_W_x002B_KseJvSxWlXiDbN10iZNo2hp66miugPjLNPjJ_x002B_98oT8yNCEsC86wW5PjV9m7FE3dozK_x002B_B5SBWgB6hbCcEY_x002B_hkwOF6VwvTiOh8lCo5XruT5VQOQLgivHLWGQUTEs6H_x002B_nbenBwrUtUiFm0lCECgWoz4M_x002B_VAvZ_x002F_xi87exqNSg8eOIVBCQCuGvQCpbRe8ZTmcezzBixMm7OO9ceRtqw30NMkXP6TEZ2ZcX8KmiQ5xBHxbDzKWagoSt2d16zSWlYcUhBUZbuhKCdTn95utRBtxkSB3eznafq_x002B_tZyUXyYiIUqDwFKzjjKW4_x002B_unK0I2th7e_x002F_xgtgjdnJQGWrfDVRPAxEPFZE9qxAzRAAnTRGcv7mkIjgdBoybWR4exRIYxujdy9VFh0LqMNNzQ_x002B_hN_x002F_iHUFLehTXFI2G6WJSRP5pK8vtPjD7DedTtYHOlfGNUT0RK0LvUMD1bxx6s3GKDvD65N0_x002F_cUwUNREBWFLukzyvuaQAF88iIBgTnt_x002B_2QMj5KBMSqb_x002F_wXSCtK</value>
+    </Resources>
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="3">
+      <value>,ReportTitle,ReportTitle,,System.String,,False,False,False,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_DateTimeType_x003E_DateAndTime_x003C__x002F_DateTimeType_x003E__x003C_SortDirection_x003E_None_x003C__x002F_SortDirection_x003E__x003C_CheckedColumn_x003E_null_x003B__x003C__x002F_CheckedColumn_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_CheckedStates_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_</value>
+      <value>,AllCategories,Toutes_x0020_les_x0020_catégories,,System.Boolean,true,False,False,True,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_DateTimeType_x003E_DateAndTime_x003C__x002F_DateTimeType_x003E__x003C_SortDirection_x003E_None_x003C__x002F_SortDirection_x003E__x003C_CheckedColumn_x003E_null_x003B__x003C__x002F_CheckedColumn_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_CheckedStates_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_</value>
+      <value>,SelectedCategory,Choissisez_x0020_une_x0020_catégorie,,System.String,,False,False,True,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_DateTimeType_x003E_DateAndTime_x003C__x002F_DateTimeType_x003E__x003C_SortDirection_x003E_None_x003C__x002F_SortDirection_x003E__x003C_ItemsInitializationType_x003E_Columns_x003C__x002F_ItemsInitializationType_x003E__x003C_KeysColumn_x003E_ReportsCustomerView.country_x003C__x002F_KeysColumn_x003E__x003C_ValuesColumn_x003E_ReportsCustomerView.country_x003C__x002F_ValuesColumn_x003E__x003C_CheckedColumn_x003E_null_x003B__x003C__x002F_CheckedColumn_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_CheckedStates_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="2">
+    <Item4 Ref="5" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
+      <CultureName>en</CultureName>
+      <Items isList="true" count="2">
+        <value>Variable.SelectedCategory.Alias,Select_x0020_a_x0020_category</value>
+        <value>Variable.AllCategories.Alias,All_x0020_Categories</value>
+      </Items>
+    </Item4>
+    <Item5 Ref="6" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
+      <CultureName>fr</CultureName>
+      <Items isList="true" count="5">
+        <value>HeaderReportsCustomerView_name.Text,Nom</value>
+        <value>HeaderReportsCustomerView_country.Text,Pays</value>
+        <value>Text7.Text,Solde</value>
+        <value>Text1.Text,Création</value>
+        <value>Text9.Text,Clôture_x0020__x0028_invariant_x0029_</value>
+      </Items>
+    </Item5>
+  </GlobalizationStrings>
+  <Key>62858f51113e4c1eb572b5c1de3dfb00</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageHeaderBand1 Ref="8" type="PageHeaderBand" isKey="true">
+          <Brush>[189:215:238]</Brush>
+          <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text3 Ref="9" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0.1,11.4,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,20</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="10" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.5,19,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text6 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.3,19,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text6</Name>
+              <Page isRef="7" />
+              <Parent isRef="10" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </PageFooterBand1>
+        <HeaderReportsCustomerView Ref="12" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.4,19,0.8</ClientRectangle>
+          <Components isList="true" count="7">
+            <HeaderReportsCustomerView_id Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,0.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_id</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>ID</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_id>
+            <HeaderReportsCustomerView_name Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,0,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_name</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Name</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_name>
+            <HeaderReportsCustomerView_country Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8,0,2.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_country</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Country</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_country>
+            <Text1 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.8,0,2.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Guid>c201b579b5de4dbd982aeee5f2d1709c</Guid>
+              <Name>Text1</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Creation</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text4 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.2,0,2.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Guid>3eef0cab22ee4bd8a5d82fd51045d826</Guid>
+              <Name>Text4</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Description</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text7 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.6,0,2.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Guid>d1b8bfff3b5643efb1cd61bf71d947cb</Guid>
+              <Name>Text7</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Balance</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text9 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.6,0,3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Guid>8b4a4962beea478d9086300eb9d18418</Guid>
+              <Name>Text9</Name>
+              <Page isRef="7" />
+              <Parent isRef="12" />
+              <Text>Closing (invariant)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderReportsCustomerView</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </HeaderReportsCustomerView>
+        <DataReportsCustomerView Ref="20" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4,19,1.2</ClientRectangle>
+          <Components isList="true" count="7">
+            <DataReportsCustomerView_id Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,0.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_id</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>{ReportsCustomerView.id}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_id>
+            <DataReportsCustomerView_name Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.8,0,4.4,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
+              <Name>DataReportsCustomerView_name</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>{ReportsCustomerView.name}</Text>
+              <TextBrush>[46:117:181]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_name>
+            <DataReportsCustomerView_country Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8,0,2.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Hyperlink>https://www.google.com</Hyperlink>
+              <Name>DataReportsCustomerView_country</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>{ReportsCustomerView.country}</Text>
+              <TextBrush>[197:90:17]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_country>
+            <Text2 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.8,0,2.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Guid>ac18c07244704461807bd6ecefbd9415</Guid>
+              <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
+              <Name>Text2</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>Bla1</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="25" type="DateFormat" isKey="true">
+                <StringFormat>g</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text5 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.2,0,2.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Guid>176913dd7b1342979b68f30dbc4373f3</Guid>
+              <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
+              <Name>Text5</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>{ReportsCustomerView.description}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="27" type="DateFormat" isKey="true" />
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text8 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.6,0,2.4,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Name>Text8</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>{ReportsCustomerView.balance}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <Symbol>€</Symbol>
+              </TextFormat>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text10 Ref="30" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.6,0,3,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Name>Text10</Name>
+              <Page isRef="7" />
+              <Parent isRef="20" />
+              <Text>Bla2</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>ReportsCustomerView</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="1">
+            <value>_x007B_ReportsCustomerView.country_x0020__x003D__x003D__x0020_SelectedCategory_x0020__x007C__x007C__x0020_AllCategories_x007D_</value>
+          </Filters>
+          <Name>DataReportsCustomerView</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </DataReportsCustomerView>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>b185aac6c2034ac1b73dd56918222b2b</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</ReportAlias>
+  <ReportChanged>12/13/2024 3:02:41 PM</ReportChanged>
+  <ReportCreated>3/20/2023 6:09:35 PM</ReportCreated>
+  <ReportGuid>1a532326d71f4d09b742452c292b3079</ReportGuid>
+  <ReportName>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2024.4.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
