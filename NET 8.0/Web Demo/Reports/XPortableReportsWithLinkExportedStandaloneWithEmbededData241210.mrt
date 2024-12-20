@@ -62,37 +62,19 @@
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
-  <GlobalizationStrings isList="true" count="2">
-    <Item4 Ref="5" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
-      <CultureName>en</CultureName>
-      <Items isList="true" count="2">
-        <value>Variable.SelectedCategory.Alias,Select_x0020_a_x0020_category</value>
-        <value>Variable.AllCategories.Alias,All_x0020_Categories</value>
-      </Items>
-    </Item4>
-    <Item5 Ref="6" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
-      <CultureName>fr</CultureName>
-      <Items isList="true" count="5">
-        <value>HeaderReportsCustomerView_name.Text,Nom</value>
-        <value>HeaderReportsCustomerView_country.Text,Pays</value>
-        <value>Text7.Text,Solde</value>
-        <value>Text1.Text,Création</value>
-        <value>Text9.Text,Clôture_x0020__x0028_invariant_x0029_</value>
-      </Items>
-    </Item5>
-  </GlobalizationStrings>
+  <GlobalizationStrings isList="true" count="0" />
   <Key>62858f51113e4c1eb572b5c1de3dfb00</Key>
   <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
-    <Page1 Ref="7" type="Page" isKey="true">
+    <Page1 Ref="5" type="Page" isKey="true">
       <Border>None;Black;2;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Components isList="true" count="4">
-        <PageHeaderBand1 Ref="8" type="PageHeaderBand" isKey="true">
+        <PageHeaderBand1 Ref="6" type="PageHeaderBand" isKey="true">
           <Brush>[189:215:238]</Brush>
           <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
           <Components isList="true" count="1">
-            <Text3 Ref="9" type="Text" isKey="true">
+            <Text3 Ref="7" type="Text" isKey="true">
               <Border>All;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.8,0.1,11.4,1</ClientRectangle>
@@ -101,8 +83,8 @@
               <Font>Arial,20</Font>
               <HorAlignment>Center</HorAlignment>
               <Name>Text3</Name>
-              <Page isRef="7" />
-              <Parent isRef="8" />
+              <Page isRef="5" />
+              <Parent isRef="6" />
               <Text>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</Text>
               <TextBrush>Black</TextBrush>
               <VertAlignment>Center</VertAlignment>
@@ -111,14 +93,14 @@
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
           <Name>PageHeaderBand1</Name>
-          <Page isRef="7" />
-          <Parent isRef="7" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </PageHeaderBand1>
-        <PageFooterBand1 Ref="10" type="PageFooterBand" isKey="true">
+        <PageFooterBand1 Ref="8" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0,26.5,19,1.2</ClientRectangle>
           <Components isList="true" count="1">
-            <Text6 Ref="11" type="Text" isKey="true">
+            <Text6 Ref="9" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0.3,19,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -126,8 +108,8 @@
               <Font>Arial,8</Font>
               <HorAlignment>Center</HorAlignment>
               <Name>Text6</Name>
-              <Page isRef="7" />
-              <Parent isRef="10" />
+              <Page isRef="5" />
+              <Parent isRef="8" />
               <Text>{PageNofM}</Text>
               <TextBrush>Black</TextBrush>
               <Type>SystemVariables</Type>
@@ -137,59 +119,59 @@
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
           <Name>PageFooterBand1</Name>
-          <Page isRef="7" />
-          <Parent isRef="7" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </PageFooterBand1>
-        <HeaderReportsCustomerView Ref="12" type="HeaderBand" isKey="true">
+        <HeaderReportsCustomerView Ref="10" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0,2.4,19,0.8</ClientRectangle>
           <Components isList="true" count="7">
-            <HeaderReportsCustomerView_id Ref="13" type="Text" isKey="true">
+            <HeaderReportsCustomerView_id Ref="11" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,0.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Name>HeaderReportsCustomerView_id</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>ID</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderReportsCustomerView_id>
-            <HeaderReportsCustomerView_name Ref="14" type="Text" isKey="true">
+            <HeaderReportsCustomerView_name Ref="12" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0.8,0,4.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Name>HeaderReportsCustomerView_name</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Name</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderReportsCustomerView_name>
-            <HeaderReportsCustomerView_country Ref="15" type="Text" isKey="true">
+            <HeaderReportsCustomerView_country Ref="13" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Name>HeaderReportsCustomerView_country</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Country</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderReportsCustomerView_country>
-            <Text1 Ref="16" type="Text" isKey="true">
+            <Text1 Ref="14" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>10.8,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -197,15 +179,15 @@
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Guid>c201b579b5de4dbd982aeee5f2d1709c</Guid>
               <Name>Text1</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Creation</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text4 Ref="17" type="Text" isKey="true">
+            <Text4 Ref="15" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>5.2,0,2.8,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -213,15 +195,15 @@
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Guid>3eef0cab22ee4bd8a5d82fd51045d826</Guid>
               <Name>Text4</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Description</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text4>
-            <Text7 Ref="18" type="Text" isKey="true">
+            <Text7 Ref="16" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>16.6,0,2.4,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -229,15 +211,15 @@
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Guid>d1b8bfff3b5643efb1cd61bf71d947cb</Guid>
               <Name>Text7</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Balance</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text9 Ref="19" type="Text" isKey="true">
+            <Text9 Ref="17" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>13.6,0,3,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -245,8 +227,8 @@
               <Font>Arial,10,Bold,Point,False,0</Font>
               <Guid>8b4a4962beea478d9086300eb9d18418</Guid>
               <Name>Text9</Name>
-              <Page isRef="7" />
-              <Parent isRef="12" />
+              <Page isRef="5" />
+              <Parent isRef="10" />
               <Text>Closing (invariant)</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
@@ -257,15 +239,15 @@
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
           <Name>HeaderReportsCustomerView</Name>
-          <Page isRef="7" />
-          <Parent isRef="7" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </HeaderReportsCustomerView>
-        <DataReportsCustomerView Ref="20" type="DataBand" isKey="true">
+        <DataReportsCustomerView Ref="18" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,4,19,1.2</ClientRectangle>
           <Components isList="true" count="7">
-            <DataReportsCustomerView_id Ref="21" type="Text" isKey="true">
+            <DataReportsCustomerView_id Ref="19" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,0.8,1.2</ClientRectangle>
@@ -273,14 +255,14 @@
               <Expressions isList="true" count="0" />
               <Font>Arial,8,Regular,Point,False,0</Font>
               <Name>DataReportsCustomerView_id</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>{ReportsCustomerView.id}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </DataReportsCustomerView_id>
-            <DataReportsCustomerView_name Ref="22" type="Text" isKey="true">
+            <DataReportsCustomerView_name Ref="20" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.8,0,4.4,1.2</ClientRectangle>
@@ -289,14 +271,14 @@
               <Font>Arial,8,Regular,Point,False,0</Font>
               <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
               <Name>DataReportsCustomerView_name</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>{ReportsCustomerView.name}</Text>
               <TextBrush>[46:117:181]</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </DataReportsCustomerView_name>
-            <DataReportsCustomerView_country Ref="23" type="Text" isKey="true">
+            <DataReportsCustomerView_country Ref="21" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>8,0,2.8,1.2</ClientRectangle>
@@ -305,14 +287,14 @@
               <Font>Arial,8,Regular,Point,False,0</Font>
               <Hyperlink>https://www.google.com</Hyperlink>
               <Name>DataReportsCustomerView_country</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>{ReportsCustomerView.country}</Text>
               <TextBrush>[197:90:17]</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </DataReportsCustomerView_country>
-            <Text2 Ref="24" type="Text" isKey="true">
+            <Text2 Ref="22" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>10.8,0,2.8,1.2</ClientRectangle>
@@ -322,18 +304,18 @@
               <Guid>ac18c07244704461807bd6ecefbd9415</Guid>
               <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
               <Name>Text2</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>Bla1</Text>
               <TextBrush>[0:0:0]</TextBrush>
-              <TextFormat Ref="25" type="DateFormat" isKey="true">
+              <TextFormat Ref="23" type="DateFormat" isKey="true">
                 <StringFormat>g</StringFormat>
               </TextFormat>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Text5 Ref="26" type="Text" isKey="true">
+            <Text5 Ref="24" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>5.2,0,2.8,1.2</ClientRectangle>
@@ -343,27 +325,27 @@
               <Guid>176913dd7b1342979b68f30dbc4373f3</Guid>
               <Hyperlink>?ui=ReportsCustomerDetailsUI&amp;id=id:{ReportsCustomerView.id}</Hyperlink>
               <Name>Text5</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>{ReportsCustomerView.description}</Text>
               <TextBrush>[0:0:0]</TextBrush>
-              <TextFormat Ref="27" type="DateFormat" isKey="true" />
+              <TextFormat Ref="25" type="DateFormat" isKey="true" />
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
               <VertAlignment>Center</VertAlignment>
             </Text5>
-            <Text8 Ref="28" type="Text" isKey="true">
+            <Text8 Ref="26" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>16.6,0,2.4,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Name>Text8</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>{ReportsCustomerView.balance}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="29" type="CurrencyFormat" isKey="true">
+              <TextFormat Ref="27" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
@@ -372,7 +354,7 @@
               </TextFormat>
               <VertAlignment>Center</VertAlignment>
             </Text8>
-            <Text10 Ref="30" type="Text" isKey="true">
+            <Text10 Ref="28" type="Text" isKey="true">
               <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>13.6,0,3,1.2</ClientRectangle>
@@ -380,8 +362,8 @@
               <Expressions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Name>Text10</Name>
-              <Page isRef="7" />
-              <Parent isRef="20" />
+              <Page isRef="5" />
+              <Parent isRef="18" />
               <Text>Bla2</Text>
               <TextBrush>[0:0:0]</TextBrush>
               <Type>Expression</Type>
@@ -396,8 +378,8 @@
             <value>_x007B_ReportsCustomerView.country_x0020__x003D__x003D__x0020_SelectedCategory_x0020__x007C__x007C__x0020_AllCategories_x007D_</value>
           </Filters>
           <Name>DataReportsCustomerView</Name>
-          <Page isRef="7" />
-          <Parent isRef="7" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
           <Sort isList="true" count="0" />
         </DataReportsCustomerView>
       </Components>
@@ -411,7 +393,7 @@
       <Report isRef="0" />
     </Page1>
   </Pages>
-  <ReferencedAssemblies isList="true" count="8">
+  <ReferencedAssemblies isList="true" count="9">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
     <value>System.Windows.Forms.Dll</value>
@@ -420,11 +402,12 @@
     <value>Stimulsoft.Controls.Dll</value>
     <value>Stimulsoft.Base.Dll</value>
     <value>Stimulsoft.Report.Dll</value>
+    <value>GroupeIsa.Neos.Report.Stimulsoft.dll</value>
   </ReferencedAssemblies>
   <ReportAlias>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</ReportAlias>
   <ReportChanged>12/13/2024 3:02:41 PM</ReportChanged>
   <ReportCreated>3/20/2023 6:09:35 PM</ReportCreated>
-  <ReportGuid>1a532326d71f4d09b742452c292b3079</ReportGuid>
+  <ReportGuid>a69c405f8ccd42a2b5518e1c6257cd15</ReportGuid>
   <ReportName>XPortableReportsWithLinkExportedStandaloneWithEmbededData241210</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2024.4.3.0</ReportVersion>
