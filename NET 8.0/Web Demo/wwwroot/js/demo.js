@@ -7,7 +7,8 @@ function createReportsButtons() {
         {
           category: "__NEOS__",
           reports: {
-            "XPortableReportsWithLinkExportedStandaloneWithEmbededData241210": "ReportsWithLink WithEmbededData 241210"
+            "XPortableReportsWithLinkExportedStandaloneWithEmbededData241210": "ReportsWithLink w/ data-241210",
+            "XTicketScenarioWithData241210": "TicketScenario w/ data-241210"
           }
         },
         {
