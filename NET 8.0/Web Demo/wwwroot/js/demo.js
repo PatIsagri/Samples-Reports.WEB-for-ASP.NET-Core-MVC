@@ -1,9 +1,15 @@
-﻿var reportButtonsId = [];
+var reportButtonsId = [];
 
 function createReportsButtons() {
     var reportsContainer = document.getElementById("stiReportsContainer");
 
     var allReports = [
+        {
+          category: "__NEOS__",
+          reports: {
+            "ReportsCustomerAndAddress_PortableReport__2025-10-03-122820": "ReportsCustomerAndAddress_PortableReport__2025-10-03-122820"
+          }
+        },
         {
             category: "Get Started Reports",
             reports: {

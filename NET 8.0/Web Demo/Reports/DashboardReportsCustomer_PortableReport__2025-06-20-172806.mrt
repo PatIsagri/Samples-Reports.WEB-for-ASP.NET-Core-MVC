@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="2">
+      <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>Connection</Alias>
+        <CastToColumnType>CastToColumnType</CastToColumnType>
+        <HeadersString />
+        <Key>c27b31c1b4e84e038e5cdc400011f343</Key>
+        <Name>Connection</Name>
+        <PathData>resource://ReportsCustomerView</PathData>
+      </Connection>
+      <Excel Ref="3" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>Excel</Alias>
+        <Key />
+        <Name>Excel</Name>
+        <PathData>resource://ExcelDoc</PathData>
+      </Excel>
+    </Databases>
+    <DataSources isList="true" count="3">
+      <customer Ref="4" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView</Alias>
+        <Columns isList="true" count="10">
+          <value>ORIGINAL,addresses,addresses,addresses,System.String,_x0038_c83d19541394dae99d4731ece2ece6d</value>
+          <value>ORIGINAL,balance,balance,balance,System.Decimal,_x0032_9d6d6ec38ac4f449f6a0aaa42d9e98e</value>
+          <value>ORIGINAL,country,country,country,System.String,ac90aa6c99e448b591bdf2f696417ae3</value>
+          <value>ORIGINAL,csv,csv,csv,System.String,_x0035_ee177390bd74a2e82fef6d09e4168e8</value>
+          <value>ORIGINAL,dateClosing,dateClosing,dateClosing,System.Nullable`1[System.DateTime],f9703a93cdab41cfac413a512cac3abf</value>
+          <value>ORIGINAL,dateCreation,dateCreation,dateCreation,System.Nullable`1[System.DateTime],dd20dc1279014740ad5d8c459057f76e</value>
+          <value>description,System.String</value>
+          <value>fakeDataVersion,System.Nullable`1[System.Int32]</value>
+          <value>id,System.Int32</value>
+          <value>name,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3bcb233b66374758af10803b8c115c44</Key>
+        <Name>customer</Name>
+        <NameInSource>Connection.ReportsCustomerView</NameInSource>
+      </customer>
+      <address Ref="5" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView_addresses</Alias>
+        <Columns isList="true" count="7">
+          <value>city,System.String</value>
+          <value>country,System.String</value>
+          <value>customerId,System.Int32</value>
+          <value>id,System.Int32</value>
+          <value>relationId,System.String</value>
+          <value>street,System.String</value>
+          <value>zipCode,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>e91889b6a96344c9a25e7578166bc968</Key>
+        <Name>address</Name>
+        <NameInSource>Connection.ReportsCustomerView_addresses</NameInSource>
+      </address>
+      <Sheet1 Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Sheet1</Alias>
+        <Columns isList="true" count="1">
+          <value>PeriodType,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3c9925188b354a9697db5d014f8fad8b</Key>
+        <Name>Sheet1</Name>
+        <NameInSource>Excel.Sheet1</NameInSource>
+      </Sheet1>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <ReportsCustomerView Ref="7" type="DataRelation" isKey="true">
+        <Alias>ReportsCustomerView</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Key>eb05deb6464144c99c029adc8f758b65</Key>
+        <Name>ReportsCustomerView</Name>
+        <NameInSource>ReportsCustomerView_addresses</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>addresses</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </ReportsCustomerView>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="2">
+      <value>Name=ExcelDoc, Alias=ExcelDoc, AvailableInTheViewer=True, Type=Excel, Content=_x0037_5FtPmOAMxIrIkoVn_x002F_9AUQ0iiUSyT75mnlDz67KpESGPAaxzj8igWYg1qRNdjjPGfoXrzj2cWqoWantxdMKnP0mxjsN8kuR_x002B_nMT4MMLNUXLswspYP5rrMvlwjFvEaZoYaUM7yeSvdanjTRjdY4djMnoBt_x002B_bBiw8DST5MFApGb2gkTpVHIcX9kVy1wHjYZBXWlm2wjqJHaR6swzqTteGtzZccsmG2n4nP0O9C0FBy9LpUD81L0bPQw5ioo980izPvE6QwfbaCrCpgoBaz_x002B_h0_x002B_qbWeG_x002F_lHRmOe926gm4XYmtfNbv9Ili9Dy6fCKHVtsHX_x002B_toAj_x002F_kcCTZz4w4EV0e2D2ZBtDrsJkuFNE1rF2edE8NvDC176sJ4_x002B_p_x002F_ZKFctiJFoL3NdH3z5foVjUaKMyarBRnXrCy0GlnEmIAGM8kLyajbyZ5XrxnBniuSXAA_x002F_xkmfKVp7uZD_x002B_zKXTALZnYWKe83Dn7sTbJcIUZ0sgZHI2FFMBZUftDqksH_x002B_fE1ABbAZm9avN2wlzt6_x002B_JSbgaLKxXbrf3K8YogIG7MCW3HHoSNCkOyPDZpzRoQjsZVzYFN5En_x002B_pO1QW5WlrcEn99bJt7cgsy_x002F_yeF1eDX6wz3O9WXlh3OtUcHM0bsO5tJg3QRzdBJqsgUNheGgWeCpqAa6_x002B_FeyZmH67XgQVUZuVR5H8msL3fniutwnPp_x002F_Y4Kj4DxKBTdZfz9X2H2SuvFeVQuywWDTasTmSDzLAhLXkQFn8CTGsXW_x002F_LXblIRAZfrzUEIksbOyDsMtm_x002B_m9R0f0rdcmCNSf4I6kg05SY1Z_x002B_vAb3VTlgDqqT2TJIVOCot_x002F_GU2sW_x002F_1nodnZfG_x002B_wEZzyxe_x002B_cjfKlCuzu_x002B_r7w6NonjB1Wstei7lYvh57v4usgeKLvbeNwd9rzUbXL3w1AgrROHMc5etIhmipEQTgBE2jqXu94YI_x002F_Oqkmj8MwuwEhxhnMcsZvaw2A1DVm_x002F_VfnOz6e14DMvh_x002F_ThhQIdGFo4q6T5t07eJJDJ5pLQiNFY0_x002F_JpXnM1JwzUHC_x002B_wSaaROtuWI_x002B_WGfeJwxgYRCFYCXd9QSLGObT3cv5MmIs7uc_x002F_b_x002F_UMAggCAdUz3toG8VHyJeQhN1mjBBV_x002B_5cJeBiAYZ1x22TbeOCQHXaFoCYbe2_x002F_kh8JcKSsR5z62uzADdowzX45R1nchYZD4vXbtmy81V1B0TDm3yIoI1pxssEimwd8PQBKuBGBtBygQb00HA96q5ElDpm6sYixB6LjVi20VkTq9Da4nWIYaaZTCNXOSfVZX9FSt0TF6xhSO66r_x002F_wugOvZwVPv_x002B_B1A4WpZ_x002B_xAYFFXoufnBptqEKCEiwyc_x002F_1W0nRDCGQRHSJW7lRsIFbjQ1NY5W6gIn4s3Y5JxPW0prw9irEiI6EGg55mxIWeW_x002F_4JxXrS_x002F_KB7vKbR1Kxepdu10vj_x002F_nO_x002F_hOB8IQbgQBWH0yMJBiGh_x002F_HY2oxO6DtnVxPCKn_x002B_w4xJWk18vwtTUouAQ6IMdtMXu25gFEjZDhD5VtG_x002B_kkiBAXofoWRnrZi29_x002B_sgcK43sdsgwypR2IMCrXgeqrkI_x002F_BPrDUD4zN46JcFX69OPErDUqf209tpdkD5nKzmHAmSIZYE0XRfM6x32YMb_x002B_0RAWNhR9roe5IFeLALHDwXQDyUoPsPFa0jvlWZCAkwJRVuCpGMBJ4HKP8oJWgvXKLNYGyPDcVulEpowKoTVfI99lzKxlylWkvcKn9m2bP7mO5s1t_x002B_iMTynwLZ8cH3koMSjWRypproFtJrOPDASVOaRqflmEL35ufGWufWELxY4i6nF9JWdlCBETcd55ZeEgTPJ5cRE0iz0IRB6bQ_x002B_ml4ya3RvhL1YG4DiZiKBVllYgDs96Lodu0FgKzX3SF8O39fUwaR946bsq9i5Oy0axnNQyi28ptHoI76koxLMpBIeJb9qVvoxPHdkH36kTpjZFKED9_x002B_afq_x002F_f9FfOzxsofqx3jxaIz5MYk0RBLTKLbanm9A5GDppCIdB_x002F_uNuFrpZSWJUjsv_x002F_GRXmFXeYnvO0K1D1ieSx_x002B_Vi2ZawEwmh7LHyxfzNDUHHE4wEn4SyEMBEAvWGUwob_x002F_Q3ddJ9CVCtAoc0CPJIknc95_x002F_mQ4cy8RKNOljJTUcaiEb18_x002F_ChVPZghoBTum7iS_x002F_mVcLNQkFKACKnAQlaEvv80_x002B_lwABTEG5MEtBN41lPKQZE3SobAjY4c_x002F_ElX2BdtUHgQhpns1AxUfISXX2FsDhBGdU7jL5Zw2ocCyJgf_x002F_XHF0tV2_x002B_5dtlvvY78UIzjSrR3R_x002F_nININIpQutat0BurReazv0H6eKda05vqBaO4AwWPQEb4lvjcFS0_x002B_PkNVK7zAE3PU9QsFF2Ch7sV2T0j3f95aCc9FVFolSqLWu9k_x002F_epgGJ4UqPYP2U5gBVvAVc_x002B_J4pVuCvNU2dM4c7ov4qsKC17gksizBoYsMjU0jDXIcKgTXKlO_x002B_p1QhPl88_x002F_6VZVzQlIU8LcEiiqXwZ8IjeeoA7Ba4v_x002B_RQKOIPi1sFvRYec2VDqm1nbItEMnamPdJz5R0Gf6qMw_x002F_nmCk_x002F_tm0nMMsUWQkOsiwSs611NVTHiYdrKlv7IVPSC3XR0Z18hA9O1es6SGmmv2zO8Qyu_x002B_JFY8pDGJu1x0LAqvfeR0VOpFnKTeiviQdDpGvmFGU3rUkki2XSjl3Gq2lRluULOtUHKxIoz2ZrzuSHg4JAF9ADWtzxla2z4OWsat9n_x002F_FaQneNOc38D4tQwORbp7SdK8hWk24EoFZuM_x002B_QUzpounoBluHWfaftVBnbNUtVVB9tKarwIz35kSmCQ6H7dTyZ2EihNUSLSetJbEVS8dG8g_x002F_beeZBQQz4FtcHmEY3QBIx06U0k51HPKrmD0XUqWtIvcdTsYeIzWO23ZiGkgjs93mmvxN_x002B_UYdpyZiMWnDOz4tjSYzJwAK4V9b_x002B_SUFKqi0jd3wo_x002F_BMqUz1_x002F_UeNuo59wEVo_x002B_JbgC64R_x002F_b_x002F_6GeluGtmmNNhVWTZPJtd4i_x002B_R8KpuRKk_x002B_2rdzs9qExSlLtC_x002B_MYlsrqQlPcudznDdxf9mAFiID8I3sHEdjgZTQIYDWZOywpNG_x002B_QUdLmvn8ngC8ZKcnQn6nrV9ECoyCMtvh22PuMd5_x002F_rnLKieREkC2nLBI8oRVBtEkkNPpx5VwAIaQ_x002B_Pgl_x002B_sm8EDKJWM3hrqedOKf1OCB_x002F_PNnfU51IC13wLmwI3RUqahCwynKTHfUz2xbztm0UbdJ5j1S1MH1h1wPTRU8nTI1tfocvSBjkN8pVwtb7zPInE7Y_x002F_FmFz0R85qer8TTSVC1IFaTT1JlKY5o7HqZg55NhCijLwd2U_x002B_JDdBMPw_x002B_o3Sbd6q3nieUmT8AxhkBYjtu195E4pCq_x002B__x002F_oe2ocz9VmkJOq90rjHcFC_x002F_326Bj_x002F_os_x002F_iHIrPxAGMd6_x002B_3B4ZYOi0XRovIdyPYad_x002F_nomNu5nH3mZYUZO_x002B_PzFNmv7KkjnQTgcLtYsDvDu5YpQpNzP3ePHPBMFtNUrwFkZyxjGmTR_x002B_gkU486V6jI2mh7vU2bUHR5m_x002B_I_x002B_Vm7xFnrqGP7WQe9rJAhhGx9Nd8NBegZe18xNiAk0n2PwwBxVkQtK2hIrLOXiL06yhMQB78_x002F_EbBm8I_x002B_1sz5LC6ZCddF9wqeigHDQXaaGCHgQu9Uc28Xoe1648aFsvt6xHMroBO0C5u5rWlTMvW_x002B_zetl_x002B_CtfG6NxGNJxJvq_x002B_X3Im5HRuGPL1tsqOfpx14RcstHbn4mArl09eTqLmgSxZlnmFN9ZC1CYPzuV9WhbUbii6kOUL2tUnlHHWMvPo_x002F_bvSRPFyKwy7OBA49k5X20IBrZWcQp0vcMEOVsqJ80Kz_x002B_EClsA0AwcePnrMKMEEWZQAK8bh1O9DezqiumJvvfZgpQ5csD7_x002F_C9rueymVtiwFP5ApG3iNrH9lfBf14F8dgjJ6qYzA1mLmZt0OhYuxxXf_x002F_WHLiaQf01QR50XMm87hl612w6godGb8bYLTCSaU6sqajOkG3K3LYOl06YT5dbZ96_x002B_T3O_x002B_PrqY_x002B__x002B_TaUsa73BhsyHKBPlUBKih2X0GCk51mCfUWkApxFE_x002B_bbaaBZbDJW8piUyiy58efuzPI2mIYxr9iYuz1kUjh3g9xE1avr8akNJAjilhs5JizHIcnKw_x002B_I523dzzx4emuoozw05HFdFmGiM4LHk69tybqLJWZvTEcirel45d6PAAheibruR4lNNjG3qcGQo9_x002B_cC2gOc_x002B_261m90_x002B_qXdpCzA6H3_x002F_Vfyl7toAp4XlOwINcin4bR0LuFXG1vjVOKTgFSxvGQXEKLVLc2xYY98o0DpcNj0Vhe_x002B_JGx1hILX5Dq6ezgeFdcjPk9scR1w5xy8AX39Iao_x002B_IotEmG0rhiVAb13tBOqpl88hl0vImqvwNCRMu_x002F_28PNYfe3S5up8Fs2kVW9hGjApR9V2WxKO0RbvgsIu9LoM_x002F_d7RPjV7c9E_x002B_s5W6JiBMPpT5F4IuOHWPQaLbxnpOgIu2Qu_x002B_RSuj_x002B_lKBwax8auxFGQatk80tQAqrjZlwyS3_x002B_OrCBEeZNarOvxwJGhpk4n5BjgghDWdSqJBpNFWnacr3h1Mq8ezy_x002F_H0c_x002B_DpO1EsdMP7I_x002B_EtzdZjVckRETAyBN2eVB973wT1NZtE03KddG9li4lCQTVZblznX4bsUMZBgD5aRjpfJNN5Ca0KeuByBJO6zybDeDHDcK0J_x002B_7p5aHBlTQmOdzVXkya0o478fFwWt6NoVYGACU5zV5ZMJihaH7eZxfOlkE_x002F_vzsOR_x002F_aVqn34RrzrPBSfzkQtVElHK5E0QeV2chbmKYnkb5SJ_x002F_M8VC6FzFE9PMfYQ3N38g1Clg5FBdK2P2BC5Mkk8Ysn8QvQIMoR8KBS0KLtDu7rQIT_x002B_Ea7_x002F_coD2wEvHcKDjumoG3Uld_x002F_mPOFD6_x002B_cms1uxLNYsx0xUxeiu1S0oXsO079yEZig2qw4Cuw7ldXIUysXTgLRArFYsRVQOKHTiJw1Z_x002B_X_x002B_GIYd4qzWxCYJnAGIxcpQAXS_x002F_sQ5P_x002F_ieEyH0mG1EUIi7aSAxlPttzlAj8BC4TY6n5510JZOfsYJF7P1cJWk7UK9qknyECqIZoeKWbFWZaGtv5nxOzjf77rKnNz9v6YUlOG7XP6POD5HdzUycExBIa_x002B_ng4VSIM_x002F_J5UvIa5kDPiEal0DvYWfHwvr6kAFnoCW5dmyYK3EaTtbCKOwLgtxYMrNx73gqko2GTYhDQbCy6kgiDNhl_x002B_2kNOKVwHoUSnZukR6g_x002B_OdNZDw0rFRBSy3jvo7nxtSaTFGnhjEGIfnhGH2gA_x002B_tKXTsK8Hqv3k9Ys05bXGgB5GCfXt9KKIk6bpDOd0h6ix8KGlrtnxlzVo0MkruPrcrL6zL8KTb_x002B_sDVETiZeshlT9LEPHtmeZoIA_x002F_WZ_x002B_S2JOYYVf_x002B_r_x002B_FcUv2R3gAldgA02VeVnaMY3cTKj1u_x002F_Tu5apqktlNQ4bRxXkkvaYEA_x002F_b99nWa7gffdRRCoIVcWN4F8u9PbK_x002F_5u6uLC2lPDXfI4wFMqVK1r_x002B_rVYJw_x002F_h43eALaA4EnJBvCUu8ngCiaTeqpjq2EzFT63ygn6TGKirmCWZ2o2Uq1q_x002B_Tc8pbvRHEQRuWvV5X567wog0tEU4jnY4dDqoVv803WyXevmtKqr9VBmWKuZFFRDruaNG610csXlSV530bDpikbcrlViNHdPiZU9B6X6NRFfCbb_x002F_sE2OLnYa7F4OR_x002B_hKqJuCqXSaFQynpp03mwoLTFcTDZ29IUsV47PozDhqPUuJ6wVO_x002F_n2dWvjimHVvpJ5FEAFeLqRFmp_x002F_fwelsD6782B7HyjcZipRgRcRCPQ6ecPH3EpIrF7xEDgDDf6ALertsfLqN2WCbs6a_x002F_9Q9PySUXXzJhSWdWPJVbUxcKthGsLDdbZSMKUXgjT5Ow4YeLR6LeGmiLakiWfqIRi2g2ue7kjAYzOAu0gZAucVFnFAELrstHHEIA3EHmtbqcoULmIR21vPovMKpCrQ8yZME2XNsdZP6ZjlDOTaTuWnzCq5Iopc2vQryM2Jj4CGe_x002B_7_x002B__x002B_B5dfHuhXFEBqmfzDNJjG5_x002F_PtcGsfaP6qT_x002B_N2DdLpRDxdWWzHGOlshOmG9qeaEORTHL6nz7OtjYpXRjXTKpzcR_x002B_byokaQPAy45zuLtCv_x002F_QroljYVqlYumkJp053PWzDdY8fYnHZ6TchA2sYK33EEvy47FdpN1VNQQrei2q50eoaIH_x002B_YFmBlkdBaUy611hSVXwB_x002B_54lfBWvstegrk7IBibuatS3GEHdT0C7SNt62Jhaj0sLHTRS_x002F_xvluKe2oZvc77O9K84afQv8BfnFcNgiccajE8901NMMhGVn26tvD6vHtlHIp_x002F_VslC0k6yhruTgJtQDirM214a_x002B_LJWcdgNVx_x002B_x27aO7s68NgLUqX4b99khSYmlaxPnEtRSG2qPE_x002B_yFgYFc3Zq_x002B_DrKVmeqfMVvrCalNayMObIqmacGon7AKkIFLZwtmbQ9fUyPVIDYgYBAQwiGBUkQGlmuOuSkGKXSirlqDAs9jpt5Xaw4PRvsK_x002B_qIjahrZTQgX4_x002B_KWnYjwl08Rf2r5PoBHydSdJ8mXPIq_x002F_mC6WqqstlVA0qY_x002B_Oilj9BOIeB0L1h_x002B_OE_x002F_5hSil3KGgjKHQWYHowdesq9pgrh8FDTdVVkyy3Fk6acyL0xX4HckNxu4qA7jPk9CInQmXSj17ZD0_x002B_NRO4pE8qxDSeJiOQokuCnqn09ISwYKNGG9XvOo9RHkRw1iHHMxuIW4XEyUBLBKWAEbL0UbSDZwDdCNasXKOgGR0zBUvgoEfXjytMWu1tJ2siq9q1aOXC6iuMwIf5s3cq2oxre7cqoM7rr0hphrQ_x002F_sbg_x002F_wGmFHoTjp8zKU9ivte0rUMR_x002B__x002B_hic4pGRX73GhALZpgubKmYPgaGjBmaGlb_x002B_4R8z_x002F_OovtDSoDCuuY9D0A73dSXGl_x002B_z1cifK9T9v9LUgw65JD5nPvgPUgL68nZqNfK_x002B_bKEYld4p_x002B_LO9slFNwvsH_x002F_Mfssbo8o_x002F_w7mmqDPG_x002B_UYHZpjuV6vnLrbe9GEjZkqk4ykTC1H7VFtxxvVrXTAm7wP6Oa98z4iAuRN8vKKK1xYfksawYI04aF0WU3sr5YCm3AGURAtT8Ss4zTA_x002B__x002F_0wt_x002B_dBaNR9wWbHjuYl2jo1GoqonH3n0A745Z2YmzLHZy3akxtwRYFlK2luagK7Be6UN6R_x002B_A_x002F_GUkiFOV4s6vcWCKljR8RD9BQvRn5zCNiq1Se336PeJGVR_x002B_3KZRvKRM2fLQE8_x002B_SrFvYoYh2GhEbKTT8vjLdBSJvlObx864dpbr5C69df2Vl1QYzihR9_x002F_NlgkzoHPutL3XCl98GH0OL4VdmhwwEdBUeTKtARRkHQZi7grfWVAEieiVFoXQgiYTn4lPi3CVBlmRlwuyfvmSpVzDm96laC60hcVwLAt2Ej1zJafbvU1CuvSKqB9AJ_x002F_pXlRiJ2z76L59OfO_x002F_MbO6ofddhWjjqCjOnXLmwMZGrFqPMHoSiw7_x002F_h_x002F_L8zCOUWHr9quZCnkvSa_x002F_T5r5BDRtBhs3JJwQXQEkmhoEMu_x002B_2rRe8UK28_x002F_THxGXpS9T_x002B_RPfnyumsrc7cwiCsw4_x002B_xubdC0teEtesRJlrlJhLAKSfeso1OXgEZz4o_x002B_iVcUS3MXCD6YV1QjbIPrkKb3oPFL3pL4n8yhO9VcxVYuCJ85NoPy0_x002F_DXZ9R0k3uzcdWCtobF6fN23TpUfy1RF_x002B_iDI7T5SmSg47uOt9OQjnyFX3_x002F_y9O8gx6rU8NuFJmN16AERx9ESlh83amSfxCu3_x002B_brJ0ygY_x002B_ByJj4W6MYg1x6omRbw1wOVykJGOJVsVmeqL10qGYVCI_x002F_Lw0k36zH1fgQRjCpoMEEPXWotVX_x002F_UBSUJZE4_x002F_DiSRLu3cCmckJmfmFoEiUakjIh4JCA3a8NAXS4BNshvKl_x002F_vuR_x002F_clBlnfw0XVcfO3VRbzlpjMmZoVzcj47sXBTgkXK_x002B_bia3RdxCWwcGp0zlVoqZk_x002F_vrP9zcQJBtZdtILG3wJvKAUHXoK5mXVQprDlH9QQ808UXnGRePoFd5B6qXUIvRjzSyl4twiSeObfR1d4peWaVn97rb6KsYw_x002F_IWXshvtNDJtOUjrzT2WGwjaJWwSHfR2yZTiKk1Kx2vzsR9enM5EBHqcxyFK6az9BpoGJqq6KZQFFREIgf4W2tGlHUDfyVMfDm_x002B_4EkYOHvVa8V_x002F_Lhh6BS3u3RgAAAccjq_x002F_9j0qDjpFOM2wJuMDtR_x002F_q4lTy5DvVlzqaptt78kuoRKPwGwt4fgbkjfJqDxCiVBNJ42WAjBTkYJgoe_x002F_T7E0JH1ofdbGA7MoEj2tTCNGu64e4WxC_x002B_oOVlZ2Fnk3Fis4yTI8kZetDfGXxvOhi3byYHl2KnpKOqkUMF305J4UyVyUvGJzfUuS4z6shJbmmuBl_x002B_M7dxfDyfe5ylX83kS_x002F_zbrfS04B6HxpTh_x002F_cmuIlwv73JfCsuPBI_x002F_DSTWQspznQDWhdaoturMTDUBWdOqwhL3HYInIbYnaZfp4KzPdUf_x002F_46cef1M4El6Mig0y4YagtdCOUwvWjC5wvUzN15sj6WwMYVHmrqKH3bRqk3nOCvCV4PP4GWiQ0TcmHdowpr6Ezi7JJsetLjPmECIju0dI2S0TgNu_x002F_8V_x002F_gLQvprfIuh0jC4iW7ZIgi2nkab6rlvl5KUnLwmSf9K9ugoHYQdZXUvkJUw1Ntg9wwBuVZ5tw4a3LCyx_x002F_Sl5gZESY2cpCMxODy7KWeofmDz32sbUmA1GKppzJRUgRiAkWWrKREyl7XEeAfsYXM_x002B_BgNDK9WCyjJMiBZtRzyStYNrr4_x002F_2erbPtoNaJUJwx0WcabW6dRz8jOhlnYk5o0LIRvTGk5g8R4SU4ch10unvzFe2Gbk3sThypIHSNthM_x002B_IyxDz45vjiNPjYny6zcIcxPRzONUUJP70ynx0wsSUDHCYeoIZt6jKdcWBsXoWaga7V8OS3CkpwC_x002F_qNjXwxwSbPqUZgrEd7yxi0_x002B_3CT01LKLympkgsq57o_x002B_laz0kQlLjIL3_x002B__x002F_ld5FBBp62iXj19cwp38Peyr8IUzV9dzU_x002B_xSk4bfVbGOArPUKtxyxOEHs1dJ_x002F_PYJZJEOUbGug_x002B_KgDyEL9b1_x002B_8aAwB6_x002F_kBAfYKoawH0gyx5HbNworZ2ZIDg_x002B_IjFgkocV9c98WyrCiQKQbOssJZXxy1SDx15W0pBlxOcgCCn1inrZy7qIi8HReMEnXjgYS2KEsc1T89hoPo8RUyOVeRRR_x002F_AcwpxcORpm6uXHHPQIRHWcT7q3URkeGzSSJ80PPMUG8yS4DWkxdBonvBlNXSelVYzA_x003D__x003D_</value>
+      <value>Name=ReportsCustomerView, Alias=ReportsCustomerView, Type=Json, Content=_x002B_pJZI2GmNK8WTEvlbF03xZ7rrKR0cPLOv0gW7w61gDTRxA30i0IuQgWCOsb37ZCptIvSeOq4Jz_x002B_dUGNcOVkRSNVyvPaD07_x002B_l1bxeuPfVOgP1WUr_x002F_o7wv_x002F_79BhtO1YgBhhFRNPYxX9sPdeetBg8mqdYEn9AUkmbI7qjL3_x002F_BX2zgU3hGh72F8ifKpKG6wpnESB1O2yAT7blwFoPfgwA1y6TyeQ3gG3Mi1Lg0EBmPfQJMr3_x002B_jxc63dV4HUKPRZFh1umDihVQXktnLHST5zk_x002F_eJIheOFGWL9WXWdYNNVN3q4g7jzAhSUN5n5WpThvPqJmmfWOZL0b60k3osBEUiHdXtGO8JOTvg1JZb9NWe9FefBs5toyVyeNOLtqp4_x002B_028gpNx7MYI07LFtpChCJTQALu7yQ_x002F_Rw22965XuCY0vr0dJ25ZIR9h4L_x002F_zI8491_x002F_PVxAOjgp955xvHj5OwG7WlUYllZ_x002F_Tr3yLXC3OjBxZmEzK0yNxwawIfUylAdebB2QLWmVz_x002B_xcUWkzJKNf8LJVazBoshypaaenKawihPZh67RJS0aDqvny2KPniXiIfbpECphuFSTBXVMreptWGPd9Ao2GH4FnSAVtfgNgTNTatH6ChuWMRfHAajNsgLMAQohg036LTzrEugaNRSS2FlDeHTV_x002B_mJLOYi_x002F_p_x002F_vUDbsHKkEQeMOOVTem0uGdTPEQDDFtOBU9X0D91brEEndhpwvbhX_x002F_SPFb_x002F_cunEHEqiAOoNz_x002F_Hh8gxStj4VOYTe5MiiTSMloO6CR3WVYTJvtT0qBXjBuZayYuPLBriZ2splRrBGxsrpjLVa_x002F_QFUDrRTEETX_x002B_GYmu7Ok3qdFOPy4Wp4QF8fOX_x002F_zDGpVD0nZ38YE8OSLrMGearO57sNnRLC55T9ZFOWcrC0W_x002F_b9R6Jia7HMjY_x002F_QJjLMgHlr7f9dUtou_x002F_MqmzstMNRKAIzNKPSd_x002B_OPhEUfzhjZFwdXe3e3_x002B_2v0oX_x002F_M87b5HpkXWz0qKxNcD16aDJ4sKD6jaNvq38iLhHlnljU1Q6MAAnImPGYq0SbGPzpnV0mn1h4QuLxwX8yKDTNXQGu0YuyLbczNjTYZgrMUtB47a7GB8mqahNcfT4Wj_x002F_jUbcEUA_x002B_wzpATUOJ1JYEANbteCeu14S51sxFgjHL2STf1JDYgs56OpAAOY3UJzlzcZCDVnpvoYwb1tB6im2bN_x002B_FFa1VtIm1p4eljOcmkptDBQGqXuMxC1X2Vxd1_x002F_gVZqFeEDcGql7DTgMzejFUw7MBtJ5TYQZNmPVrWkWCTl5BnGCe3fGOOSQeBN8WxKyflXeOoc6KixN49vigrTyac5qJAn8kyxaTZXQxkFtIqGVwGEFF6buPPJ74hu_x002F_4m_x002B_M3SMFdwiPVixXhFUL1Htatq4276dtWCuW5ND4i7AFcVb9U6rPbvxgWFhdivvq7QwlG5GD9MciRIn00BjzHu0CVQcJiwdutaSpj741x5pKbu_x002F_GGCPreWjAce3</value>
+    </Resources>
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>7d6974278422415bac10649a0ffadaa1</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="8" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Components isList="true" count="5">
+        <CountAllCustomers Ref="9" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <ClientRectangle>40,40,240,180</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <Guid>9b3108a9dc6a4c08b4f5fc8d81a262af</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Name>CountAllCustomers</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <TargetFormat Ref="10" type="PercentageFormat" isKey="true">
+            <DecimalDigits>3</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <Title Ref="11" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <Font>Arial,11</Font>
+            <Text>Customers count</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="12" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Count(customer.id)</Expression>
+            <Key>f732bde0f5a543628d6ff193a5cdad65</Key>
+            <Label>id</Label>
+          </Value>
+        </CountAllCustomers>
+        <Button1 Ref="13" type="Stimulsoft.Dashboard.Components.Button.StiButtonElement" isKey="true">
+          <Border>All;Gray;2;Solid</Border>
+          <ClickEvent>&lt;xml xmlns="https://developers.google.com/blockly/xml"&gt;&lt;block type="sti_refresh_viewer" id="|$yC^.lS%@heKZj9=NC1" x="126" y="111"&gt;&lt;/block&gt;&lt;/xml&gt;</ClickEvent>
+          <ClientRectangle>320,120,140,40</ClientRectangle>
+          <Expressions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2aa866ac47a14e928044d46979fb521c</Guid>
+          <Name>Button1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <Text>Refresh</Text>
+          <UserFilters isList="true" count="0" />
+        </Button1>
+        <CountFakeCustomers Ref="14" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <ClientRectangle>300,240,240,180</ClientRectangle>
+          <DataFilters isList="true" count="1">
+            <Item11 Ref="15" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <Condition>GreaterThan</Condition>
+              <Path>customer.fakeDataVersion</Path>
+              <Value>0</Value>
+            </Item11>
+          </DataFilters>
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <Guid>413af33c24d542a8a289536c944385db</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Name>CountFakeCustomers</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <TargetFormat Ref="16" type="PercentageFormat" isKey="true">
+            <DecimalDigits>3</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <Title Ref="17" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <Font>Arial,11</Font>
+            <Text>Faker customers</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="18" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Count(customer.id)</Expression>
+            <Key>76c5879322b541e094b6e31481fdb9ac</Key>
+            <Label>id</Label>
+          </Value>
+        </CountFakeCustomers>
+        <Indicator1 Ref="19" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <ClientRectangle>40,240,240,180</ClientRectangle>
+          <DataFilters isList="true" count="1">
+            <Item13 Ref="20" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <Condition>IsNull</Condition>
+              <Path>customer.fakeDataVersion</Path>
+              <Value>1</Value>
+            </Item13>
+          </DataFilters>
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <Guid>8fa3623949f84454b51ce2fed6b1a82b</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Name>Indicator1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <TargetFormat Ref="21" type="PercentageFormat" isKey="true">
+            <DecimalDigits>3</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <Title Ref="22" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <Font>Arial,11</Font>
+            <Text>Manually created customers</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="23" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Count(customer.id)</Expression>
+            <Key>93754cc5a9684db2b2490ac3dd01df2e</Key>
+            <Label>id</Label>
+          </Value>
+        </Indicator1>
+        <ComboBox1 Ref="24" type="Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement" isKey="true">
+          <ClientRectangle>320,40,200,40</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Guid>91d4a29aa17e4dbbbef4707b495251da</Guid>
+          <InitialValue>Month</InitialValue>
+          <KeyMeter Ref="25" type="Stimulsoft.Dashboard.Components.ComboBox.StiKeyComboBoxMeter" isKey="true">
+            <Expression>Sheet1.PeriodType</Expression>
+            <Key>b369b1c9ded94857b239694047763e23</Key>
+            <Label>PeriodType</Label>
+          </KeyMeter>
+          <Name>ComboBox1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <ShowAllValue>True</ShowAllValue>
+          <ShowBlanks>True</ShowBlanks>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+        </ComboBox1>
+      </Components>
+      <Expressions isList="true" count="0" />
+      <Guid>f33d5a6042b140dda8982ea240b65ce0</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+    </Dashboard1>
+  </Pages>
+  <PrinterSettings Ref="26" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardReportsCustomer</ReportAlias>
+  <ReportChanged>6/20/2025 5:45:48 PM</ReportChanged>
+  <ReportCreated>2/11/2025 6:51:43 PM</ReportCreated>
+  <ReportFile>C:\Users\pszczepankiewicz\Downloads\DashboardReportsCustomer.PortableReport__2025-06-20-172806.mrt</ReportFile>
+  <ReportGuid>a338741c0dbc4136899091f983db2cf1</ReportGuid>
+  <ReportName>DashboardReportsCustomer</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2025.2.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DashboardReportsCustomer : Stimulsoft.Report.StiReport
+    {
+        public DashboardReportsCustomer()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <Style1 Ref="27" type="Stimulsoft.Report.StiDialogStyle" isKey="true">
+      <BackColor>White</BackColor>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <ForeColor>DimGray</ForeColor>
+      <GlyphColor>DimGray</GlyphColor>
+      <HotBackColor>226, 226, 226</HotBackColor>
+      <HotForeColor>DimGray</HotForeColor>
+      <HotGlyphColor>DimGray</HotGlyphColor>
+      <HotSelectedBackColor>82, 182, 249</HotSelectedBackColor>
+      <HotSelectedForeColor>White</HotSelectedForeColor>
+      <HotSelectedGlyphColor>White</HotSelectedGlyphColor>
+      <Name>Style1</Name>
+      <SelectedBackColor>52, 152, 219</SelectedBackColor>
+      <SelectedForeColor>White</SelectedForeColor>
+      <SelectedGlyphColor>White</SelectedGlyphColor>
+      <SeparatorColor>LightGray</SeparatorColor>
+      <TitleFont>Arial,11</TitleFont>
+    </Style1>
+  </Styles>
+</StiSerializer>
