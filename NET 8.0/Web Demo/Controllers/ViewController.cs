@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -20,6 +20,8 @@ namespace Web_Demo.Controllers
 
         public IActionResult GetReport(string id = "SimpleList")
         {
+            Stimulsoft.Base.StiLicense.LoadFromFile("C:\\.stimulsoft_license_for_demo.key");
+
             // Create the report object
             var report = new StiReport();
 
