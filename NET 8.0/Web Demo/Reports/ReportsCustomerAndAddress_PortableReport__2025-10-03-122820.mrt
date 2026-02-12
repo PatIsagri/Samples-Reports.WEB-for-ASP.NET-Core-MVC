@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>Connection</Alias>
+        <HeadersString />
+        <Key />
+        <Name>Connection</Name>
+        <PathData>resource://NeosJsonDatabase__ReportsCustomerView</PathData>
+      </Connection>
+    </Databases>
+    <DataSources isList="true" count="2">
+      <ReportsCustomerView Ref="3" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView</Alias>
+        <Columns isList="true" count="6">
+          <value>additionalData,System.String</value>
+          <value>addresses,System.String</value>
+          <value>country,System.String</value>
+          <value>id,System.Int32</value>
+          <value>name,System.String</value>
+          <value>rowVersion,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>32ee056984e74cc084566517ff9b104f</Key>
+        <Name>ReportsCustomerView</Name>
+        <NameInSource>Connection.ReportsCustomerView</NameInSource>
+      </ReportsCustomerView>
+      <ReportsCustomerView_addresses Ref="4" type="DataTableSource" isKey="true">
+        <Alias>ReportsCustomerView_addresses</Alias>
+        <Columns isList="true" count="9">
+          <value>additionalData,System.String</value>
+          <value>city,System.String</value>
+          <value>country,System.String</value>
+          <value>customerId,System.Int32</value>
+          <value>id,System.Int32</value>
+          <value>relationId,System.String</value>
+          <value>rowVersion,System.String</value>
+          <value>street,System.String</value>
+          <value>zipCode,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>fed3117e322b41928bb71c9f25d6d494</Key>
+        <Name>ReportsCustomerView_addresses</Name>
+        <NameInSource>Connection.ReportsCustomerView_addresses</NameInSource>
+      </ReportsCustomerView_addresses>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <ReportsCustomerView Ref="5" type="DataRelation" isKey="true">
+        <Alias>ReportsCustomerView</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>ReportsCustomerView</Name>
+        <NameInSource>ReportsCustomerView_addresses</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>addresses</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </ReportsCustomerView>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=NeosJsonDatabase__ReportsCustomerView, Alias=NeosJsonDatabase__ReportsCustomerView, Type=Json, Content=wLRM0iopm02Vn0u8jXz_x002B_necurWRQA0OxP5UHO33mcq90AHsh0wccTW0ZyYEHg23KRzVQ95nDn80dd7g1F4BXRXRIhwqeOr1vD7zWMTD5kLcuo2zW9D8vM43uytDREkAJWP81rU97YO9pKr3fAtJ14IdnlwXn7RPRl82WvWX111Ik0pYEyQCGfKh970XvKpYSHseEpIFLph1MrX7Z1FsBx4_x002F_7HLo_x002B_LydUcXaObYaaQt20TRtKrgqqUoPTT43MHSvMc8dK5ryONbHtqfcI8hlnRqeoVO5UVmfV0VqqmFWcbLnOZY8_x002F__x002B_YAiyiFfS8R5F_x002F_l11udiBK1TeIdlqhG6lqZZA1Kfd_x002B_WUJVYo8ZXDJ_x002F_fBTvE6ydSf0DuqsT8Oj_x002B_3QeRf0_x002F_Ggk8mBs3gi_x002B_kqqCxg3L6cwBeig2yqQC2M3xkBesfomK0ZQID7BoeRIDJXNNMoH7c7mkW4kwbN1iYXLjUTXnlu_x002B_KpuqqgEK_x002B_3AD4Omm0AAoG9y8xc7KpjP4rvz0vt0Agrtvr9UGheIkLphNTvLS776rBg0gine2oxnEJQIMuKVlnREHzuT3Jt2CKhLNKxD5e9P6_x002B__x002F_AMA_x002F_c_x002B_cypQrMcIvARWS238djJc9IeHiLFHGuOlVeHHWtkV0UtK60oO0_x002F_i7rig2XyYP2lvTICJOefwRYNKGsNlMQv3bKaHRKbhKnsTfJfZ9N_x002B_0Q6xnWjMIyhPl142wImu0QkaGT3R0KPmoBFuleQ_x002B_2ctFpe_x002F_KAlCgfu7nZPmEUnfH1Fs4LUVykXmesIDZuwjoeGvu8RhQVr5Le4Gx4V5muMtdjQMFAi0coRSlFhVxxe13EKGI_x002B_AMM4MGHN_x002F_03g5jk_x002B_FLjlUl_x002F_v0WCGzweLSlIKoBs6Er4hL9e_x002B_PefqAAPNWyMvh2b2VRjLQUB8_x002B_Ztq1TChyHnFfp0ls4LT14oURrd97XCJizcNJGmOyYUaJBlFJObl7zq_x002B_5SH1wLciDVOGNTcrbomE5_x002B_iyhV_x002B_N1sS0DavAvBPLE_x002B_iwdDDEjVPxW5okkLBVkG8Z3Aycd_x002B_1JfXNpvHaexaRc_x002B_ukTwo0S51mzsRxjQvCh8JMEb5c5_x002B_dVf2gsh_x002F_dqZXpNzGj_x002F_W9L2Zvjg4mssZRyWMzMbSsR0ZWLUkhjUaqVosTNCXVgUTZ0_x002B_YhKEZ4qtmYRw3REGgrF3eNn5Jal2AKDn76PrAaBfwPfKh1CSXayApUUN7LXOK9Qr4U_x002F_979n_x002B_69QJretIkCeB01_x002B_z8rxbma8cH_x002B_XlUo2lkCtiUOm_x002F_9c9XqeCXtOGeOhGqeZzGIOqXas29ybmuDKcrbZUHoxy_x002F_iOZaAFkrKoZWKQhM8K0_x002F_Wa0H_x002B_OxfK1e3yK_x002F_wKZbsxr115FRuP_x002B_98xrhUnXGRjsehP6fOuf0ryNMnkUH4Th598tr6hgsqxztagdIk5MzOChBwgsOCx_x002B_l9Z3BSHPLLhUitxz92r7lfLhxBV0B5V5tBv_x002F_xWKhpI2Ahs_x002B_Q3sfrONPkVvNdIoEzor0Ybs1W1WxVln2U_x002F_sg_x003D__x003D_</value>
+    </Resources>
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>b1e87854e7f4479080279c9346b2bb41</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <ReportTitleBand1 Ref="7" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="8" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[168:208:141]</Brush>
+              <ClientRectangle>0,0,19,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,20,Regular,Point,False,0</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>Customers and their addresses</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ReportTitleBand1>
+        <HeaderReportsCustomerView Ref="9" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.4,19,1.2</ClientRectangle>
+          <Components isList="true" count="2">
+            <HeaderReportsCustomerView_id Ref="10" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[197:224:179]</Brush>
+              <ClientRectangle>0,0,3.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_id</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>id</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_id>
+            <HeaderReportsCustomerView_name Ref="11" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[197:224:179]</Brush>
+              <ClientRectangle>3.4,0,15.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_name</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>name</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_name>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderReportsCustomerView</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </HeaderReportsCustomerView>
+        <DataReportsCustomerView Ref="12" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4.4,19,3.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <DataReportsCustomerView_name Ref="13" type="Text" isKey="true">
+              <Border>Top, Right;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[180:198:231]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.4,0,15.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,14,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_name</Name>
+              <Page isRef="6" />
+              <Parent isRef="12" />
+              <Text>{ReportsCustomerView.name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_name>
+            <SubReport1 Ref="14" type="SubReport" isKey="true">
+              <Border>Left, Right, Bottom;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[226:239:217]</Brush>
+              <ClientRectangle>-0,0.8,19,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>SubReport1</Name>
+              <Page isRef="6" />
+              <Parameters isList="true" count="0" />
+              <Parent isRef="12" />
+              <SubReportPageGuid>04778278720c4e9687f5e4c1f891b411</SubReportPageGuid>
+            </SubReport1>
+            <DataReportsCustomerView_id Ref="15" type="Text" isKey="true">
+              <Border>Top, Left;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[180:198:231]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,3.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,14,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_id</Name>
+              <Page isRef="6" />
+              <Parent isRef="12" />
+              <Text>{ReportsCustomerView.id}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_id>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>ReportsCustomerView</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataReportsCustomerView</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataReportsCustomerView>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>992fb4cdbdf048dd91f8a93e54d8ddad</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+    <subReport_1 Ref="16" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <HeaderReportsCustomerView_addresses Ref="17" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <HeaderReportsCustomerView_addresses_id Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_addresses_id</Name>
+              <Page isRef="16" />
+              <Parent isRef="17" />
+              <Text>id</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_addresses_id>
+            <HeaderReportsCustomerView_addresses_street Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,0.01,5.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_addresses_street</Name>
+              <Page isRef="16" />
+              <Parent isRef="17" />
+              <Text>street</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_addresses_street>
+            <HeaderReportsCustomerView_addresses_city Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.4,0,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_addresses_city</Name>
+              <Page isRef="16" />
+              <Parent isRef="17" />
+              <Text>city</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_addresses_city>
+            <HeaderReportsCustomerView_addresses_zipCode Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,0,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_addresses_zipCode</Name>
+              <Page isRef="16" />
+              <Parent isRef="17" />
+              <Text>zipCode</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_addresses_zipCode>
+            <HeaderReportsCustomerView_addresses_country Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.8,0,5.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold,Point,False,0</Font>
+              <Name>HeaderReportsCustomerView_addresses_country</Name>
+              <Page isRef="16" />
+              <Parent isRef="17" />
+              <Text>country</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderReportsCustomerView_addresses_country>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderReportsCustomerView_addresses</Name>
+          <Page isRef="16" />
+          <Parent isRef="16" />
+        </HeaderReportsCustomerView_addresses>
+        <DataReportsCustomerView_addresses Ref="23" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,2,19,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <DataReportsCustomerView_addresses_id Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_addresses_id</Name>
+              <Page isRef="16" />
+              <Parent isRef="23" />
+              <Text>{ReportsCustomerView_addresses.id}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_addresses_id>
+            <DataReportsCustomerView_addresses_street Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.8,0,5.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_addresses_street</Name>
+              <Page isRef="16" />
+              <Parent isRef="23" />
+              <Text>{ReportsCustomerView_addresses.street}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_addresses_street>
+            <DataReportsCustomerView_addresses_zipCode Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.4,0,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_addresses_zipCode</Name>
+              <Page isRef="16" />
+              <Parent isRef="23" />
+              <Text>{ReportsCustomerView_addresses.zipCode}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_addresses_zipCode>
+            <DataReportsCustomerView_addresses_city Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.4,0,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_addresses_city</Name>
+              <Page isRef="16" />
+              <Parent isRef="23" />
+              <Text>{ReportsCustomerView_addresses.city}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_addresses_city>
+            <DataReportsCustomerView_addresses_country Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.8,0,5.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Regular,Point,False,0</Font>
+              <Name>DataReportsCustomerView_addresses_country</Name>
+              <Page isRef="16" />
+              <Parent isRef="23" />
+              <Text>{ReportsCustomerView_addresses.country}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataReportsCustomerView_addresses_country>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>ReportsCustomerView_addresses</DataRelationName>
+          <DataSourceName>ReportsCustomerView_addresses</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="12" />
+          <Name>DataReportsCustomerView_addresses</Name>
+          <Page isRef="16" />
+          <Parent isRef="16" />
+          <Sort isList="true" count="0" />
+        </DataReportsCustomerView_addresses>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>04778278720c4e9687f5e4c1f891b411</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>subReport_1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+    </subReport_1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>ReportsCustomerAndAddress</ReportAlias>
+  <ReportChanged>3/8/2023 8:44:36 PM</ReportChanged>
+  <ReportCreated>3/8/2023 8:44:36 PM</ReportCreated>
+  <ReportGuid>1eccce802da14eeab7f25af55d23ce42</ReportGuid>
+  <ReportName>ReportsCustomerAndAddress</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2025.3.5.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

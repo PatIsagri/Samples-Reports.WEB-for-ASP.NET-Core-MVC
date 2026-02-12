@@ -1,9 +1,18 @@
-﻿var reportButtonsId = [];
+var reportButtonsId = [];
 
 function createReportsButtons() {
     var reportsContainer = document.getElementById("stiReportsContainer");
 
     var allReports = [
+        {
+          category: "__NEOS__",
+          reports: {
+            "2026__BUG1__ImageFromBaseWithActiveFormula": "2026__BUG1__ImageFromBaseWithActiveFormula",
+            "2026__BUG1__ImageFromRessourceWithActiveFormula": "2026__BUG1__ImageFromRessourceWithActiveFormula",
+            "2026__BUG2__Transparency": "2026__BUG2__Transparency",
+            "2026__BUG3__AutotReductible": "2026__BUG3__AutotReductible"
+          }
+        },
         {
             category: "Get Started Reports",
             reports: {
